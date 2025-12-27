@@ -15,8 +15,8 @@
       "range": "95 miles (155 km)"
     },
     "desertRole": "The Panzer III formed the core of Rommel's tank formations during his early victories. It was effective against British Cruiser tanks but struggled against the heavily armored Matilda II until the 50mm gun was introduced.",
-    "image": "/images/museum/panzer-iii.jpg",
-    "imageCredit": "Bundesarchiv, Public domain, via Wikimedia Commons"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Bundesarchiv_Bild_101I-783-0104-38%2C_Nordafrika%2C_Panzer_III%2C_Rommel.jpg/1280px-Bundesarchiv_Bild_101I-783-0104-38%2C_Nordafrika%2C_Panzer_III%2C_Rommel.jpg",
+    "imageCredit": "Bundesarchiv, Bild 101I-783-0104-38 / Zwilling, Ernst A. / CC-BY-SA 3.0"
   },
   {
     "id": "panzer-iv-f2",
@@ -34,8 +34,8 @@
       "range": "130 miles (210 km)"
     },
     "desertRole": "Arriving in 1942, the long-barreled Panzer IV could destroy any Allied tank at over 1,000 meters. It gave Rommel's forces a qualitative edge until American Shermans arrived in numbers.",
-    "image": "/images/museum/panzer-iv-f2.jpg",
-    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0, via Wikimedia Commons"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bundesarchiv_Bild_101I-788-0006-32%2C_Nordafrika%2C_Panzer_IV%2C_Panzerbesatzung.jpg/1280px-Bundesarchiv_Bild_101I-788-0006-32%2C_Nordafrika%2C_Panzer_IV%2C_Panzerbesatzung.jpg",
+    "imageCredit": "Bundesarchiv, Bild 101I-788-0006-32 / Zwilling, Ernst A. / CC-BY-SA 3.0"
   },
   {
     "id": "m4-sherman",
@@ -53,8 +53,8 @@
       "range": "120 miles (193 km)"
     },
     "desertRole": "Shermans first saw action at El Alamein in October 1942. Over 300 were available for Montgomery's offensive. Their mechanical reliability meant more tanks in action, compensating for individual shortcomings.",
-    "image": "/images/museum/m4-sherman.jpg",
-    "imageCredit": "U.S. Army, Public domain, via Wikimedia Commons"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/M4_Sherman_at_El_Alamein.jpg/1280px-M4_Sherman_at_El_Alamein.jpg",
+    "imageCredit": "British Official Photographer, Public domain, via IWM"
   },
   {
     "id": "matilda-ii",
@@ -72,7 +72,7 @@
       "range": "160 miles (257 km)"
     },
     "desertRole": "Matildas were devastating against Italian forces in 1940-41, but the arrival of German 88mm guns negated their armor advantage. They were gradually replaced by faster Cruiser tanks and Grants.",
-    "image": "/images/museum/matilda-ii.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Matilda_tank.jpg/1280px-Matilda_tank.jpg",
     "imageCredit": "Australian War Memorial, Public domain"
   },
   {
@@ -91,7 +91,7 @@
       "range": "124 miles (200 km)"
     },
     "desertRole": "Crusaders were the most numerous British tanks at operations like Crusader and Gazala. Their speed suited desert warfare, but mechanical breakdowns and weak armament led to heavy losses against German armor.",
-    "image": "/images/museum/crusader-tank.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/IWM-E-17616-Crusader-19421026.jpg/1280px-IWM-E-17616-Crusader-19421026.jpg",
     "imageCredit": "Imperial War Museums, Public domain"
   },
   {
@@ -110,8 +110,8 @@
       "range": "120 miles (193 km)"
     },
     "desertRole": "Grants arrived before Gazala in 1942. Their 75mm gun could knock out Panzer IIIs and IVs, giving British tank crews their first real counter to German armor. The high silhouette was a disadvantage.",
-    "image": "/images/museum/m3-grant.jpg",
-    "imageCredit": "U.S. Army, Public domain"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/M3_Grant_in_the_Western_Desert_1942.jpg/1280px-M3_Grant_in_the_Western_Desert_1942.jpg",
+    "imageCredit": "Imperial War Museums, Public domain"
   },
   {
     "id": "88mm-flak",
@@ -128,8 +128,8 @@
       "rateOfFire": "15-20 rounds/min"
     },
     "desertRole": "At Halfaya Pass ('Hellfire Pass'), 88mm guns destroyed British tanks at ranges over 2,000 meters. Rommel's tactic of luring British tanks onto concealed 88mm positions was devastatingly effective.",
-    "image": "/images/museum/88mm-flak.jpg",
-    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Bundesarchiv_Bild_101I-443-1582-32%2C_Nordafrika%2C_Flak_in_Stellung.jpg/1280px-Bundesarchiv_Bild_101I-443-1582-32%2C_Nordafrika%2C_Flak_in_Stellung.jpg",
+    "imageCredit": "Bundesarchiv, Bild 101I-443-1582-32 / CC-BY-SA 3.0"
   },
   {
     "id": "25-pounder",
@@ -146,7 +146,7 @@
       "shellWeight": "25 lb (11.3 kg)"
     },
     "desertRole": "The 25-pounder formed the backbone of British artillery in the desert. At El Alamein, over 900 guns fired in the opening barrage. The gun could also serve in an anti-tank role when needed.",
-    "image": "/images/museum/25-pounder.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/25_pounder_El_Alamein.jpg/1280px-25_pounder_El_Alamein.jpg",
     "imageCredit": "Australian War Memorial, Public domain"
   },
   {
@@ -164,8 +164,8 @@
       "range": "528 miles (850 km)"
     },
     "desertRole": "Bf 109s of JG 27 initially dominated desert skies. Hans-Joachim Marseille, the 'Star of Africa,' scored 158 victories flying Bf 109s before his death in September 1942.",
-    "image": "/images/museum/bf-109.jpg",
-    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bundesarchiv_Bild_101I-382-0211-011%2C_Flugzeug_Messerschmitt_Me_109.jpg/1280px-Bundesarchiv_Bild_101I-382-0211-011%2C_Flugzeug_Messerschmitt_Me_109.jpg",
+    "imageCredit": "Bundesarchiv, Bild 101I-382-0211-011 / CC-BY-SA 3.0"
   },
   {
     "id": "spitfire",
@@ -182,8 +182,8 @@
       "range": "434 miles (698 km)"
     },
     "desertRole": "Spitfires of the Desert Air Force provided air superiority over El Alamein and supported the advance to Tunisia. They helped achieve the air dominance that made Axis supply convoys increasingly vulnerable.",
-    "image": "/images/museum/spitfire.jpg",
-    "imageCredit": "Royal Air Force, Public domain"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ray_Flying_Legends_2005-1.jpg/1280px-Ray_Flying_Legends_2005-1.jpg",
+    "imageCredit": "Kogo, GFDL, via Wikimedia Commons"
   },
   {
     "id": "p-40-warhawk",
@@ -200,7 +200,7 @@
       "range": "650 miles (1,046 km)"
     },
     "desertRole": "P-40s flew with RAF, RAAF, and SAAF squadrons as the primary Allied fighter until Spitfires arrived in numbers. Their shark-mouth nose art became iconic of the desert air war.",
-    "image": "/images/museum/p-40-warhawk.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Curtiss_P-40E_Warhawk_2_USAF.jpg/1280px-Curtiss_P-40E_Warhawk_2_USAF.jpg",
     "imageCredit": "U.S. Air Force, Public domain"
   },
   {
@@ -218,8 +218,8 @@
       "range": "490 miles (790 km)"
     },
     "desertRole": "Stukas provided close air support for Afrika Korps offensives. Their pinpoint bombing of artillery positions and tank concentrations was particularly effective before Allied air superiority was achieved.",
-    "image": "/images/museum/ju-87-stuka.jpg",
-    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Bundesarchiv_Bild_101I-363-2271-22%2C_Frankreich%2C_Flugzeug_Junkers_Ju_87.jpg/1280px-Bundesarchiv_Bild_101I-363-2271-22%2C_Frankreich%2C_Flugzeug_Junkers_Ju_87.jpg",
+    "imageCredit": "Bundesarchiv, Bild 101I-363-2271-22 / CC-BY-SA 3.0"
   },
   {
     "id": "lee-enfield",
@@ -236,8 +236,8 @@
       "effectiveRange": "550 yards (500 m)"
     },
     "desertRole": "The Lee-Enfield armed British and Commonwealth infantry throughout the desert campaign. Its 10-round magazine gave it a firepower advantage over the German Kar98k's 5-round magazine.",
-    "image": "/images/museum/lee-enfield.jpg",
-    "imageCredit": "Imperial War Museums, Public domain"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Lee-Enfield_No_4_Mk_I_%281943%29_-_AM.032056.jpg/1280px-Lee-Enfield_No_4_Mk_I_%281943%29_-_AM.032056.jpg",
+    "imageCredit": "Armémuseum, CC BY-SA 4.0"
   },
   {
     "id": "kar98k",
@@ -254,8 +254,8 @@
       "effectiveRange": "550 yards (500 m)"
     },
     "desertRole": "Afrika Korps soldiers relied on the Kar98k throughout the campaign. Its robust action handled sand and dust better than some Allied weapons, though its 5-round magazine limited firepower.",
-    "image": "/images/museum/kar98k.jpg",
-    "imageCredit": "Bundesarchiv, Public domain"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Karabiner_98k.jpg/1280px-Karabiner_98k.jpg",
+    "imageCredit": "Public domain, via Wikimedia Commons"
   },
   {
     "id": "mg34",
@@ -272,8 +272,8 @@
       "effectiveRange": "2,200 yards (2,000 m)"
     },
     "desertRole": "MG 34s gave German infantry and vehicles superior firepower. Mounted on halftracks and tanks, they provided suppressive fire during the mobile desert battles.",
-    "image": "/images/museum/mg34.jpg",
-    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/MG_34.jpg/1280px-MG_34.jpg",
+    "imageCredit": "Public domain, via Wikimedia Commons"
   },
   {
     "id": "lrdg-chevrolet",
@@ -290,7 +290,7 @@
       "range": "1,100+ miles with extra tanks"
     },
     "desertRole": "LRDG trucks transported SAS raiders deep behind enemy lines and conducted their own reconnaissance missions. They pioneered desert navigation techniques still used today.",
-    "image": "/images/museum/lrdg-chevrolet.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/LRDG_chevrolet.jpg/1280px-LRDG_chevrolet.jpg",
     "imageCredit": "Imperial War Museums, Public domain"
   },
   {
@@ -308,7 +308,7 @@
       "range": "300 miles (483 km)"
     },
     "desertRole": "SAS Jeeps allowed small teams to raid airfields, shoot up convoys, and escape before the enemy could react. The twin Vickers K guns could destroy parked aircraft and vehicles.",
-    "image": "/images/museum/sas-jeep.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_jeep.jpg/1280px-SAS_jeep.jpg",
     "imageCredit": "Imperial War Museums, Public domain"
   },
   {
@@ -327,7 +327,7 @@
       "range": "186 miles (300 km)"
     },
     "desertRole": "SdKfz 222s scouted ahead of German columns and screened their flanks. Their 20mm cannon could engage light vehicles and infantry, while their speed allowed rapid withdrawal when facing tanks.",
-    "image": "/images/museum/sdkfz-222.jpg",
-    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Bundesarchiv_Bild_101I-782-0016-34%2C_Nordafrika%2C_Sch%C3%BCtzenpanzer%2C_Panzer_II.jpg/1280px-Bundesarchiv_Bild_101I-782-0016-34%2C_Nordafrika%2C_Sch%C3%BCtzenpanzer%2C_Panzer_II.jpg",
+    "imageCredit": "Bundesarchiv, Bild 101I-782-0016-34 / CC-BY-SA 3.0"
   }
 ]

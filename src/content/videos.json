@@ -18,7 +18,7 @@
     "url": "https://www.youtube.com/watch?v=YhddWnRWSKI",
     "thumbnail": "https://i.ytimg.com/vi/YhddWnRWSKI/hqdefault.jpg",
     "duration": "28:00",
-    "category": "animated-overview",
+    "category": "campaign",
     "description": "Animated overview of the entire North African Campaign from the Italian invasion of Egypt through the final Allied victory in Tunisia.",
     "relatedModules": ["north-african-campaign", "key-battles"],
     "recommended": true
@@ -30,7 +30,7 @@
     "url": "https://www.youtube.com/watch?v=wqNlH2HyPPw",
     "thumbnail": "https://i.ytimg.com/vi/wqNlH2HyPPw/hqdefault.jpg",
     "duration": "18:00",
-    "category": "animated-overview",
+    "category": "campaign",
     "description": "Detailed animated battle analysis of the Second Battle of El Alamein, showing Montgomery's plan to break through Rommel's defenses.",
     "relatedModules": ["key-battles"],
     "recommended": true
@@ -42,7 +42,7 @@
     "url": "https://www.youtube.com/watch?v=JR6hvyKZUNQ",
     "thumbnail": "https://i.ytimg.com/vi/JR6hvyKZUNQ/hqdefault.jpg",
     "duration": "22:00",
-    "category": "battle",
+    "category": "battles",
     "description": "The story of the 241-day siege where Australian and Allied defenders held Tobruk against Rommel's Afrika Korps.",
     "relatedModules": ["key-battles"],
     "recommended": true
@@ -114,7 +114,7 @@
     "url": "https://www.youtube.com/watch?v=w0jQQ_VE0gQ",
     "thumbnail": "https://i.ytimg.com/vi/w0jQQ_VE0gQ/hqdefault.jpg",
     "duration": "20:00",
-    "category": "animated-overview",
+    "category": "campaign",
     "description": "Animated overview of Operation Torch, the Allied landings in French North Africa that trapped Rommel between two armies.",
     "relatedModules": ["north-african-campaign"],
     "recommended": true
@@ -126,7 +126,7 @@
     "url": "https://www.youtube.com/watch?v=gCY8mH1GHQ4",
     "thumbnail": "https://i.ytimg.com/vi/gCY8mH1GHQ4/hqdefault.jpg",
     "duration": "18:00",
-    "category": "battle",
+    "category": "battles",
     "description": "How inexperienced American forces were defeated by Rommel at Kasserine Pass, and the lessons learned from this battle.",
     "relatedModules": ["key-battles", "rommel-desert-fox"],
     "recommended": false
@@ -174,7 +174,7 @@
     "url": "https://www.youtube.com/watch?v=M_X3yWReSHQ",
     "thumbnail": "https://i.ytimg.com/vi/M_X3yWReSHQ/hqdefault.jpg",
     "duration": "22:00",
-    "category": "animated-overview",
+    "category": "campaign",
     "description": "Animated battle analysis of the Gazala campaign where Rommel outmaneuvered the British and captured Tobruk.",
     "relatedModules": ["key-battles", "rommel-desert-fox"],
     "recommended": true
@@ -186,7 +186,7 @@
     "url": "https://www.youtube.com/watch?v=qR_NxP6bfps",
     "thumbnail": "https://i.ytimg.com/vi/qR_NxP6bfps/hqdefault.jpg",
     "duration": "14:00",
-    "category": "intelligence",
+    "category": "documentary",
     "description": "How British codebreakers at Bletchley Park provided crucial intelligence that helped defeat Rommel in North Africa.",
     "relatedModules": ["desert-warfare-technology", "key-battles"],
     "recommended": false
