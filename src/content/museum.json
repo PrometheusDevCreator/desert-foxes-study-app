@@ -15,7 +15,7 @@
       "range": "95 miles (155 km)"
     },
     "desertRole": "The Panzer III formed the core of Rommel's tank formations during his early victories. It was effective against British Cruiser tanks but struggled against the heavily armored Matilda II until the 50mm gun was introduced.",
-    "image": "https://images.unsplash.com/photo-1562016600-ece13e8ba570?w=600&q=80",
+    "image": "/images/museum/panzer-iii.jpg",
     "imageCredit": "Tank Museum / Public Domain"
   },
   {
@@ -34,7 +34,7 @@
       "range": "130 miles (210 km)"
     },
     "desertRole": "Arriving in 1942, the long-barreled Panzer IV could destroy any Allied tank at over 1,000 meters. It gave Rommel's forces a qualitative edge until American Shermans arrived in numbers.",
-    "image": "https://images.unsplash.com/photo-1579912437766-7896df6d3cd3?w=600&q=80",
+    "image": "/images/museum/panzer-iv.jpg",
     "imageCredit": "Military Archives / Public Domain"
   },
   {
@@ -53,7 +53,7 @@
       "range": "120 miles (193 km)"
     },
     "desertRole": "Shermans first saw action at El Alamein in October 1942. Over 300 were available for Montgomery's offensive. Their mechanical reliability meant more tanks in action, compensating for individual shortcomings.",
-    "image": "https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=600&q=80",
+    "image": "/images/museum/m4-sherman.jpg",
     "imageCredit": "U.S. Army / Public Domain"
   },
   {
@@ -72,7 +72,7 @@
       "range": "160 miles (257 km)"
     },
     "desertRole": "Matildas were devastating against Italian forces in 1940-41, but the arrival of German 88mm guns negated their armor advantage. They were gradually replaced by faster Cruiser tanks and Grants.",
-    "image": "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&q=80",
+    "image": "/images/museum/matilda-ii.jpg",
     "imageCredit": "Australian War Memorial / Public Domain"
   },
   {
@@ -91,7 +91,7 @@
       "range": "124 miles (200 km)"
     },
     "desertRole": "Crusaders were the most numerous British tanks at operations like Crusader and Gazala. Their speed suited desert warfare, but mechanical breakdowns and weak armament led to heavy losses against German armor.",
-    "image": "https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=600&q=80",
+    "image": "/images/museum/crusader.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
   },
   {
@@ -128,7 +128,7 @@
       "rateOfFire": "15-20 rounds/min"
     },
     "desertRole": "At Halfaya Pass ('Hellfire Pass'), 88mm guns destroyed British tanks at ranges over 2,000 meters. Rommel's tactic of luring British tanks onto concealed 88mm positions was devastatingly effective.",
-    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80",
+    "image": "/images/museum/88mm-flak.jpg",
     "imageCredit": "Bundesarchiv / CC-BY-SA 3.0"
   },
   {
@@ -164,7 +164,7 @@
       "range": "528 miles (850 km)"
     },
     "desertRole": "Bf 109s of JG 27 initially dominated desert skies. Hans-Joachim Marseille, the 'Star of Africa,' scored 158 victories flying Bf 109s before his death in September 1942.",
-    "image": "https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?w=600&q=80",
+    "image": "/images/museum/bf-109.jpg",
     "imageCredit": "Bundesarchiv / CC-BY-SA 3.0"
   },
   {
@@ -254,7 +254,7 @@
       "effectiveRange": "550 yards (500 m)"
     },
     "desertRole": "Afrika Korps soldiers relied on the Kar98k throughout the campaign. Its robust action handled sand and dust better than some Allied weapons, though its 5-round magazine limited firepower.",
-    "image": "https://images.unsplash.com/photo-1608613304899-ea8098577e38?w=600&q=80",
+    "image": "/images/museum/kar98k.jpg",
     "imageCredit": "Military Archives / Public Domain"
   },
   {
