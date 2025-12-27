@@ -110,7 +110,7 @@
       "range": "120 miles (193 km)"
     },
     "desertRole": "Grants arrived before Gazala in 1942. Their 75mm gun could knock out Panzer IIIs and IVs, giving British tank crews their first real counter to German armor. The high silhouette was a disadvantage.",
-    "image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=600&q=80",
+    "image": "/images/museum/m3-grant.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
   },
   {
@@ -146,7 +146,7 @@
       "shellWeight": "25 lb (11.3 kg)"
     },
     "desertRole": "The 25-pounder formed the backbone of British artillery in the desert. At El Alamein, over 900 guns fired in the opening barrage. The gun could also serve in an anti-tank role when needed.",
-    "image": "https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=600&q=80",
+    "image": "/images/museum/25-pounder.jpg",
     "imageCredit": "Australian War Memorial / Public Domain"
   },
   {
@@ -182,7 +182,7 @@
       "range": "434 miles (698 km)"
     },
     "desertRole": "Spitfires of the Desert Air Force provided air superiority over El Alamein and supported the advance to Tunisia. They helped achieve the air dominance that made Axis supply convoys increasingly vulnerable.",
-    "image": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?w=600&q=80",
+    "image": "/images/museum/spitfire.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
   },
   {
@@ -200,7 +200,7 @@
       "range": "650 miles (1,046 km)"
     },
     "desertRole": "P-40s flew with RAF, RAAF, and SAAF squadrons as the primary Allied fighter until Spitfires arrived in numbers. Their shark-mouth nose art became iconic of the desert air war.",
-    "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=600&q=80",
+    "image": "/images/museum/p-40.jpg",
     "imageCredit": "U.S. Air Force / Public Domain"
   },
   {
@@ -218,7 +218,7 @@
       "range": "490 miles (790 km)"
     },
     "desertRole": "Stukas provided close air support for Afrika Korps offensives. Their pinpoint bombing of artillery positions and tank concentrations was particularly effective before Allied air superiority was achieved.",
-    "image": "https://images.unsplash.com/photo-1474302770737-173ee21bab63?w=600&q=80",
+    "image": "/images/museum/ju-87-stuka.jpg",
     "imageCredit": "Bundesarchiv / CC-BY-SA 3.0"
   },
   {
@@ -236,7 +236,7 @@
       "effectiveRange": "550 yards (500 m)"
     },
     "desertRole": "The Lee-Enfield armed British and Commonwealth infantry throughout the desert campaign. Its 10-round magazine gave it a firepower advantage over the German Kar98k's 5-round magazine.",
-    "image": "https://images.unsplash.com/photo-1595590424283-b8f17842773f?w=600&q=80",
+    "image": "/images/museum/lee-enfield.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
   },
   {
@@ -272,7 +272,7 @@
       "effectiveRange": "2,200 yards (2,000 m)"
     },
     "desertRole": "MG 34s gave German infantry and vehicles superior firepower. Mounted on halftracks and tanks, they provided suppressive fire during the mobile desert battles.",
-    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80",
+    "image": "/images/museum/mg34.jpg",
     "imageCredit": "Military Archives / Public Domain"
   },
   {
@@ -290,7 +290,7 @@
       "range": "1,100+ miles with extra tanks"
     },
     "desertRole": "LRDG trucks transported SAS raiders deep behind enemy lines and conducted their own reconnaissance missions. They pioneered desert navigation techniques still used today.",
-    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    "image": "/images/museum/lrdg-truck.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
   },
   {
@@ -308,7 +308,7 @@
       "range": "300 miles (483 km)"
     },
     "desertRole": "SAS Jeeps allowed small teams to raid airfields, shoot up convoys, and escape before the enemy could react. The twin Vickers K guns could destroy parked aircraft and vehicles.",
-    "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=600&q=80",
+    "image": "/images/museum/sas-jeep.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
   },
   {
@@ -327,7 +327,7 @@
       "range": "186 miles (300 km)"
     },
     "desertRole": "SdKfz 222s scouted ahead of German columns and screened their flanks. Their 20mm cannon could engage light vehicles and infantry, while their speed allowed rapid withdrawal when facing tanks.",
-    "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=600&q=80",
-    "imageCredit": "Bundesarchiv / CC-BY-SA 3.0"
+    "image": "/images/museum/sdkfz-222.jpg",
+    "imageCredit": "Imperial War Museums / Public Domain"
   }
 ]

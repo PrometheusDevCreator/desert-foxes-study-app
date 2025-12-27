@@ -1,13 +1,13 @@
 [
   {
     "id": "vid-rommel-documentary",
-    "title": "Rommel - The Desert Fox (Full Documentary)",
-    "channel": "War Stories",
-    "url": "https://www.youtube.com/watch?v=lk_WdVRSxks",
-    "thumbnail": "https://i.ytimg.com/vi/lk_WdVRSxks/hqdefault.jpg",
-    "duration": "50:00",
+    "title": "The Desert War: Fighting Rommel - The Afrika Korps",
+    "channel": "Free Documentary - History",
+    "url": "https://www.youtube.com/watch?v=uTF40auhb3k",
+    "thumbnail": "https://i.ytimg.com/vi/uTF40auhb3k/hqdefault.jpg",
+    "duration": "45:00",
     "category": "documentary",
-    "description": "Comprehensive documentary covering Erwin Rommel's career from WWI through his command of the Afrika Korps, examining the making of the Desert Fox legend.",
+    "description": "Comprehensive documentary covering the North African desert war and Rommel's Afrika Korps campaign, from the initial victories to the fierce battles against Allied forces.",
     "relatedModules": ["rommel-desert-fox", "north-african-campaign"],
     "recommended": true
   },
