@@ -200,7 +200,7 @@
       "range": "650 miles (1,046 km)"
     },
     "desertRole": "P-40s flew with RAF, RAAF, and SAAF squadrons as the primary Allied fighter until Spitfires arrived in numbers. Their shark-mouth nose art became iconic of the desert air war.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Curtiss_P-40%2C_%C2%BE-front_view%2C_in_flight_%2800910460_023%29.jpg/1024px-Curtiss_P-40%2C_%C2%BE-front_view%2C_in_flight_%2800910460_023%29.jpg",
+    "image": "/images/museum/p-40.jpg",
     "imageCredit": "U.S. Air Force / Public Domain"
   },
   {
@@ -218,7 +218,7 @@
       "range": "490 miles (790 km)"
     },
     "desertRole": "Stukas provided close air support for Afrika Korps offensives. Their pinpoint bombing of artillery positions and tank concentrations was particularly effective before Allied air superiority was achieved.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Ju_87B_dropping_bombs.jpg/1024px-Ju_87B_dropping_bombs.jpg",
+    "image": "/images/museum/ju-87-stuka.jpg",
     "imageCredit": "Bundesarchiv / CC-BY-SA 3.0"
   },
   {
@@ -236,7 +236,7 @@
       "effectiveRange": "550 yards (500 m)"
     },
     "desertRole": "The Lee-Enfield armed British and Commonwealth infantry throughout the desert campaign. Its 10-round magazine gave it a firepower advantage over the German Kar98k's 5-round magazine.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Lee-Enfield_Mk_III_%28No_1_Mk_3%29_-_AM.032027.jpg/1024px-Lee-Enfield_Mk_III_%28No_1_Mk_3%29_-_AM.032027.jpg",
+    "image": "/images/museum/lee-enfield.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
   },
   {
