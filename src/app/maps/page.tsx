@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { historicalMaps } from '@/lib/content-loader';
+import ImageWithFallback from '@/components/ImageWithFallback';
 
 interface MapLocation {
   id: string;
@@ -68,6 +70,16 @@ const locations: MapLocation[] = [
     coordinates: { lat: 31.7000, lng: 23.8000 },
     description: 'Site of fierce tank battles during Operation Crusader in November 1941, including the bloody Totensonntag engagement.',
   },
+];
+
+const mapCategories = [
+  { id: 'all', label: 'All Maps' },
+  { id: 'overview', label: 'Overview' },
+  { id: 'el-alamein', label: 'El Alamein' },
+  { id: 'tobruk', label: 'Tobruk' },
+  { id: 'german', label: 'German Forces' },
+  { id: 'campaign', label: 'Campaign' },
+  { id: 'logistics', label: 'Logistics' },
 ];
 
 // Timeline phases for the animated campaign map
@@ -165,12 +177,17 @@ const timelinePhases = [
 ];
 
 export default function MapsPage() {
-  const [activeTab, setActiveTab] = useState<'animated' | 'locations'>('animated');
+  const [activeTab, setActiveTab] = useState<'animated' | 'historical' | 'locations'>('animated');
   const [selectedLocation, setSelectedLocation] = useState<MapLocation | null>(null);
+  const [selectedMapCategory, setSelectedMapCategory] = useState('all');
   const [currentPhase, setCurrentPhase] = useState(0);
   const [showAllied, setShowAllied] = useState(true);
   const [showAxis, setShowAxis] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
+
+  const filteredMaps = selectedMapCategory === 'all'
+    ? historicalMaps
+    : historicalMaps.filter(m => m.category === selectedMapCategory);
 
   // Auto-play animation
   const playAnimation = () => {
@@ -208,6 +225,16 @@ export default function MapsPage() {
             }`}
           >
             Campaign Timeline
+          </button>
+          <button
+            onClick={() => setActiveTab('historical')}
+            className={`px-6 py-3 font-bold transition-all border-b-2 ${
+              activeTab === 'historical'
+                ? 'border-[var(--accent-sand)] text-[var(--accent-sand)]'
+                : 'border-transparent hover:text-[var(--accent-sand)]'
+            }`}
+          >
+            Historical Maps
           </button>
           <button
             onClick={() => setActiveTab('locations')}
@@ -375,6 +402,61 @@ export default function MapsPage() {
                   <span>Axis Forces</span>
                 </div>
               </div>
+            </div>
+          </div>
+        )}
+
+        {/* Historical Maps View */}
+        {activeTab === 'historical' && (
+          <div className="space-y-6">
+            <div className="flex flex-wrap gap-2 mb-6">
+              {mapCategories.map(cat => (
+                <button
+                  key={cat.id}
+                  onClick={() => setSelectedMapCategory(cat.id)}
+                  className={`px-4 py-2 rounded-lg text-sm transition-all ${
+                    selectedMapCategory === cat.id
+                      ? 'bg-[var(--accent-sand)] text-black'
+                      : 'bg-[var(--background-secondary)] hover:bg-[var(--background-secondary)]/80'
+                  }`}
+                >
+                  {cat.label}
+                </button>
+              ))}
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {filteredMaps.map(map => (
+                <div key={map.id} className="card overflow-hidden">
+                  <div className="relative aspect-video bg-[var(--background-secondary)]">
+                    <ImageWithFallback
+                      src={map.image}
+                      alt={map.title}
+                      className="w-full h-full object-cover"
+                      fallbackText={map.title.slice(0, 20)}
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-bold mb-2">{map.title}</h3>
+                    <p className="text-sm text-[var(--foreground-muted)] mb-3">{map.description}</p>
+                    <p className="text-xs text-[var(--foreground-muted)]">Credit: {map.credit}</p>
+                    {map.relatedModules.length > 0 && (
+                      <div className="mt-3 pt-3 border-t border-[var(--border)]">
+                        <span className="text-xs text-[var(--foreground-muted)]">Related: </span>
+                        {map.relatedModules.map((modId, idx) => (
+                          <Link
+                            key={modId}
+                            href={`/modules/${modId}`}
+                            className="text-xs text-[var(--accent-sand)] hover:underline"
+                          >
+                            {modId}{idx < map.relatedModules.length - 1 ? ', ' : ''}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         )}

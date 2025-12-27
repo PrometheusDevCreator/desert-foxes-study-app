@@ -3,7 +3,7 @@
     "id": "north-africa-overview",
     "title": "North African Campaign Overview Map",
     "description": "Overview map showing the theater of operations from Egypt to Tunisia, including major supply routes, key ports, and the extent of Axis and Allied territorial control at various points.",
-    "image": "/images/maps/north-africa-overview.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/North_Africa_1940-41.svg/1280px-North_Africa_1940-41.svg.png",
     "credit": "Public domain, via Wikimedia Commons",
     "category": "overview",
     "relatedModules": ["north-african-campaign", "rommel-desert-fox"]
@@ -12,7 +12,7 @@
     "id": "tobruk-siege",
     "title": "Siege of Tobruk Map",
     "description": "Detailed map of Tobruk showing the defensive perimeter held by Australian and British forces during the 241-day siege. Includes German and Italian attack vectors and the Red Line defensive positions.",
-    "image": "/images/maps/tobruk-siege.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Map_of_Tobruk_perimeter_1941.jpg/1280px-Map_of_Tobruk_perimeter_1941.jpg",
     "credit": "Australian War Memorial, Public domain",
     "category": "tobruk",
     "relatedModules": ["key-battles"]
@@ -21,7 +21,7 @@
     "id": "el-alamein-first",
     "title": "First Battle of El Alamein",
     "description": "Map showing the positions during the July 1942 battle where Auchinleck halted Rommel's advance on Alexandria and Cairo. Demonstrates the critical 'bottleneck' geography between the Mediterranean and the Qattara Depression.",
-    "image": "/images/maps/el-alamein-first.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/1942-1943_map_of_the_El_Alamein%2C_Egypt%2C_battlefield.jpg/1280px-1942-1943_map_of_the_El_Alamein%2C_Egypt%2C_battlefield.jpg",
     "credit": "U.S. Army, Public domain",
     "category": "el-alamein",
     "relatedModules": ["key-battles"]
@@ -30,7 +30,7 @@
     "id": "el-alamein-second",
     "title": "Second Battle of El Alamein",
     "description": "Montgomery's Operation Lightfoot and Supercharge, October-November 1942. Shows the massive minefields, the break-in at Kidney Ridge, and the eventual breakthrough that sent Rommel into retreat.",
-    "image": "/images/maps/el-alamein-second.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/2_Battle_of_El_Alamein_001.png/1280px-2_Battle_of_El_Alamein_001.png",
     "credit": "U.S. Military, Public domain",
     "category": "el-alamein",
     "relatedModules": ["key-battles", "north-african-campaign"]
@@ -39,8 +39,8 @@
     "id": "rommel-advance-1942",
     "title": "Rommel's Advance to Egypt",
     "description": "Map tracking the Afrika Korps advance from El Agheila to El Alamein, January-July 1942. Shows the fall of Tobruk and the 'Gazala Gallop' that brought Rommel to the gates of Egypt.",
-    "image": "/images/maps/rommel-advance.jpg",
-    "credit": "German military archives, Public domain",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/AfricaKorps.svg/1280px-AfricaKorps.svg.png",
+    "credit": "Wikimedia Commons, Public domain",
     "category": "german",
     "relatedModules": ["rommel-desert-fox", "north-african-campaign"]
   },
@@ -48,7 +48,7 @@
     "id": "sas-raids-map",
     "title": "SAS Raid Locations 1941-1943",
     "description": "Map showing the locations of major SAS and LRDG raids on Axis airfields and supply lines, including Stirling's famous attacks on Sidi Haneish, Benghazi harbor, and Tamet airfield.",
-    "image": "/images/maps/sas-raids.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/LRDG_January_1941.jpg/1280px-LRDG_January_1941.jpg",
     "credit": "British National Archives, Public domain",
     "category": "campaign",
     "relatedModules": ["birth-of-sas"]
@@ -57,7 +57,7 @@
     "id": "tunisia-campaign",
     "title": "Tunisia Campaign Map",
     "description": "The final phase of the North African war, November 1942-May 1943. Shows Operation Torch landings, Kasserine Pass, and the final encirclement of Axis forces in Tunisia.",
-    "image": "/images/maps/tunisia-campaign.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Tunisia_1942-Nov.jpg/1280px-Tunisia_1942-Nov.jpg",
     "credit": "U.S. Army Center of Military History, Public domain",
     "category": "campaign",
     "relatedModules": ["north-african-campaign"]
@@ -66,7 +66,7 @@
     "id": "supply-routes",
     "title": "Mediterranean Supply Routes",
     "description": "Map showing the critical supply routes for both sides: the Axis route from Italy via Tripoli, and the Allied routes from Egypt and (after Torch) from Algeria. Demonstrates why logistics determined the desert war.",
-    "image": "/images/maps/supply-routes.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mediterranean_and_North_Africa_1940-41.jpg/1280px-Mediterranean_and_North_Africa_1940-41.jpg",
     "credit": "Royal Navy Historical Branch, Public domain",
     "category": "logistics",
     "relatedModules": ["desert-warfare-technology", "north-african-campaign"]
