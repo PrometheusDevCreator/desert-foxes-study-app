@@ -57,7 +57,7 @@
     "id": "tunisia-campaign",
     "title": "Tunisia Campaign Map",
     "description": "The final phase of the North African war, November 1942-May 1943. Shows Operation Torch landings, Kasserine Pass, and the final encirclement of Axis forces in Tunisia.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tunisian_Campaign.svg/1024px-Tunisian_Campaign.svg.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tunisia1942-1943.svg/1024px-Tunisia1942-1943.svg.png",
     "credit": "U.S. Army Center of Military History, Public domain",
     "category": "campaign",
     "relatedModules": ["north-african-campaign"]
@@ -66,7 +66,7 @@
     "id": "supply-routes",
     "title": "Mediterranean Supply Routes",
     "description": "Map showing the critical supply routes for both sides: the Axis route from Italy via Tripoli, and the Allied routes from Egypt and (after Torch) from Algeria. Demonstrates why logistics determined the desert war.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Mediterranean_Theater_of_Operations_1942.jpg/1280px-Mediterranean_Theater_of_Operations_1942.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Operation_Torch_-_map.jpg",
     "credit": "Royal Navy Historical Branch, Public domain",
     "category": "logistics",
     "relatedModules": ["desert-warfare-technology", "north-african-campaign"]
