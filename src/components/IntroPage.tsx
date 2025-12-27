@@ -42,7 +42,7 @@ const ROMMEL_FADE_START = 10000;   // Rommel fades in with section 2-3
 const ROMMEL_FADE_OUT = 55000;     // Rommel fades out
 const SAS_FADE_START = 58000;      // SAS fades in with section 6-7
 const SAS_FADE_OUT = 100000;       // SAS fades out
-const SHOW_CONTINUE_AT = 115000;   // Show continue prompt
+const SHOW_CONTINUE_AT = 999999;   // Disabled - rely on audio 'ended' event instead
 
 export default function IntroPage({ onComplete }: IntroPageProps) {
   const [currentSection, setCurrentSection] = useState(-1);
@@ -331,7 +331,7 @@ export default function IntroPage({ onComplete }: IntroPageProps) {
             textShadow: '1px 1px 4px rgba(0,0,0,0.8)',
           }}
         >
-          Press Enter to Continue
+          Press Enter to Start Your Journey
         </p>
       </div>
 
