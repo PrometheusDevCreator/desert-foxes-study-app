@@ -3,7 +3,11 @@
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 import { UserProgress, QuizAttempt, FlashcardState, Bookmark } from '@/types/content';
 
-const STORAGE_KEY = 'desert-foxes-study-progress';
+const STORAGE_KEY_PREFIX = 'desert-foxes-progress-';
+
+function getStorageKey(username: string | null): string {
+  return username ? `${STORAGE_KEY_PREFIX}${username.toLowerCase()}` : 'desert-foxes-study-progress';
+}
 
 const defaultProgress: UserProgress = {
   modulesCompleted: [],
@@ -34,29 +38,63 @@ const ProgressContext = createContext<ProgressContextType | undefined>(undefined
 export function ProgressProvider({ children }: { children: ReactNode }) {
   const [progress, setProgress] = useState<UserProgress>(defaultProgress);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [currentUser, setCurrentUser] = useState<string | null>(null);
 
-  // Load from localStorage on mount
+  // Load from localStorage on mount and when user changes
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const stored = localStorage.getItem(STORAGE_KEY);
+      const username = sessionStorage.getItem('desert-foxes-current-user');
+      setCurrentUser(username);
+
+      const storageKey = getStorageKey(username);
+      const stored = localStorage.getItem(storageKey);
       if (stored) {
         try {
           const parsed = JSON.parse(stored);
           setProgress({ ...defaultProgress, ...parsed });
         } catch (e) {
           console.error('Failed to parse progress:', e);
+          setProgress(defaultProgress);
         }
+      } else {
+        setProgress(defaultProgress);
       }
       setIsLoaded(true);
     }
   }, []);
 
+  // Listen for user changes (e.g., logout/login)
+  useEffect(() => {
+    const handleStorageChange = () => {
+      const username = sessionStorage.getItem('desert-foxes-current-user');
+      if (username !== currentUser) {
+        setCurrentUser(username);
+        const storageKey = getStorageKey(username);
+        const stored = localStorage.getItem(storageKey);
+        if (stored) {
+          try {
+            const parsed = JSON.parse(stored);
+            setProgress({ ...defaultProgress, ...parsed });
+          } catch (e) {
+            setProgress(defaultProgress);
+          }
+        } else {
+          setProgress(defaultProgress);
+        }
+      }
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    return () => window.removeEventListener('storage', handleStorageChange);
+  }, [currentUser]);
+
   // Save to localStorage on change
   useEffect(() => {
     if (isLoaded && typeof window !== 'undefined') {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+      const storageKey = getStorageKey(currentUser);
+      localStorage.setItem(storageKey, JSON.stringify(progress));
     }
-  }, [progress, isLoaded]);
+  }, [progress, isLoaded, currentUser]);
 
   const markModuleComplete = (moduleId: string) => {
     setProgress(prev => ({
@@ -140,7 +178,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const resetProgress = () => {
     setProgress(defaultProgress);
     if (typeof window !== 'undefined') {
-      localStorage.removeItem(STORAGE_KEY);
+      const storageKey = getStorageKey(currentUser);
+      localStorage.removeItem(storageKey);
     }
   };
 

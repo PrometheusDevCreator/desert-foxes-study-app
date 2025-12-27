@@ -50,6 +50,7 @@ export default function IntroPage({ onComplete }: IntroPageProps) {
   const [rommelOpacity, setRommelOpacity] = useState(0);
   const [sasOpacity, setSasOpacity] = useState(0);
   const [showContinue, setShowContinue] = useState(false);
+  const [showSkip, setShowSkip] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [audioStarted, setAudioStarted] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -158,11 +159,16 @@ export default function IntroPage({ onComplete }: IntroPageProps) {
       if (elapsed >= SHOW_CONTINUE_AT && !showContinue) {
         setShowContinue(true);
       }
+
+      // Show skip button after 5 seconds
+      if (elapsed >= 5000 && !showSkip) {
+        setShowSkip(true);
+      }
     };
 
     const intervalId = setInterval(animationLoop, 50);
     return () => clearInterval(intervalId);
-  }, [audioStarted, currentSection, showContinue]);
+  }, [audioStarted, currentSection, showContinue, showSkip]);
 
   // Keyboard/click handling
   useEffect(() => {
@@ -334,6 +340,27 @@ export default function IntroPage({ onComplete }: IntroPageProps) {
           Press Enter to Start Your Journey
         </p>
       </div>
+
+      {/* Skip Intro button - bottom right, appears after 5 seconds */}
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          handleContinue();
+        }}
+        className={`absolute bottom-6 right-6 z-30 px-4 py-2 text-sm tracking-wider uppercase transition-all duration-500 ${
+          showSkip && audioStarted ? 'opacity-60 hover:opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+        style={{
+          fontFamily: "'Georgia', 'Times New Roman', serif",
+          color: '#a89060',
+          background: 'rgba(0, 0, 0, 0.4)',
+          border: '1px solid rgba(168, 144, 96, 0.3)',
+          borderRadius: '4px',
+          textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
+        }}
+      >
+        Skip Intro
+      </button>
 
       {/* Click/tap prompt before start */}
       {!audioStarted && (
