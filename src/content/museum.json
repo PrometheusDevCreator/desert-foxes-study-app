@@ -272,8 +272,8 @@
       "effectiveRange": "2,200 yards (2,000 m)"
     },
     "desertRole": "MG 34s gave German infantry and vehicles superior firepower. Mounted on halftracks and tanks, they provided suppressive fire during the mobile desert battles.",
-    "image": "/images/museum/mg34.jpg",
-    "imageCredit": "Military Archives / Public Domain"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/MG_34_Maschinengewehr_1.JPG",
+    "imageCredit": "Elmar Zenner, CC BY-SA 4.0, via Wikimedia Commons"
   },
   {
     "id": "lrdg-chevrolet",
@@ -290,7 +290,7 @@
       "range": "1,100+ miles with extra tanks"
     },
     "desertRole": "LRDG trucks transported SAS raiders deep behind enemy lines and conducted their own reconnaissance missions. They pioneered desert navigation techniques still used today.",
-    "image": "/images/museum/lrdg-truck.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/A_Long_Range_Desert_Group_Chevrolet_30cwt_1533_truck_negotiates_the_slope_of_a_sand_dune_during_a_patrol_in_the_desert%2C_27_March_1941._E2298.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
   },
   {
@@ -299,16 +299,33 @@
     "type": "vehicle",
     "nation": "allied",
     "country": "United States/United Kingdom",
-    "description": "The SAS modified Willys Jeeps into heavily armed raiding vehicles. Mounting multiple machine guns and capable of carrying substantial supplies, they became the SAS's signature vehicle.",
+    "featured": true,
+    "description": "The SAS Armed Jeep was one of the most innovative fighting vehicles of World War II. David Stirling's unit transformed the standard American Willys MB jeep into a devastating raiding platform, bristling with up to five machine guns and capable of carrying enough supplies for extended operations deep behind enemy lines. These vehicles revolutionized desert raiding tactics and became an icon of special operations warfare.",
     "specifications": {
-      "weight": "2,450 lb + weapons/stores",
-      "crew": "3",
-      "armament": "Vickers K guns, .50 cal MG",
-      "speed": "65 mph (105 km/h)",
-      "range": "300 miles (483 km)"
+      "baseVehicle": "Willys MB / Ford GPW",
+      "weight": "2,450 lb (1,111 kg) base + weapons/stores",
+      "crew": "3 (driver, front gunner, rear gunner)",
+      "primaryArmament": "Twin Vickers K guns (front mount)",
+      "secondaryArmament": ".50 cal Browning M2 (rear) or additional Vickers K",
+      "speed": "65 mph (105 km/h) on road",
+      "range": "300+ miles (483+ km) with extra fuel",
+      "engine": "60 hp Go Devil 4-cylinder",
+      "fuelCapacity": "15 gallons standard + jerry cans"
     },
-    "desertRole": "SAS Jeeps allowed small teams to raid airfields, shoot up convoys, and escape before the enemy could react. The twin Vickers K guns could destroy parked aircraft and vehicles.",
-    "image": "/images/museum/sas-jeep.jpg",
+    "modifications": {
+      "weapons": "Twin Vickers K guns on a custom pivot mount in front, single or twin Vickers K or .50 cal Browning on rear mount. Some carried a Boys anti-tank rifle.",
+      "fuel": "Additional jerry cans mounted on sides and rear, extending range for deep penetration raids.",
+      "navigation": "Sun compass and theodolite for desert navigation. Some vehicles carried early radio equipment.",
+      "armor": "None—stripped down for speed and agility. Armor was considered counterproductive for hit-and-run tactics.",
+      "camouflage": "Desert pink or sand paint, often with camouflage netting when stationary."
+    },
+    "famousRaids": [
+      "Sidi Haneish Airfield (July 1942) - 18 SAS jeeps destroyed over 40 aircraft in a single night raid.",
+      "El Daba Raids (1942) - Multiple successful attacks on Luftwaffe airfields.",
+      "Benghazi Harbor Attack - Audacious raid on port facilities."
+    ],
+    "desertRole": "SAS Jeeps revolutionized desert warfare by combining mobility, firepower, and surprise. A typical raid involved driving hundreds of miles behind enemy lines, attacking at night when aircraft were lined up on airfields, and disappearing into the desert before dawn. The twin Vickers K guns, with their combined rate of fire exceeding 2,000 rounds per minute, could destroy a parked aircraft in seconds. Paddy Mayne once destroyed 47 aircraft in a single raid using these vehicles. The jeep's reliability, low profile, and ability to traverse rough terrain made it perfect for the SAS's unconventional tactics.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Special_Air_Service_in_North_Africa_E_21337.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
   },
   {
@@ -327,7 +344,79 @@
       "range": "186 miles (300 km)"
     },
     "desertRole": "SdKfz 222s scouted ahead of German columns and screened their flanks. Their 20mm cannon could engage light vehicles and infantry, while their speed allowed rapid withdrawal when facing tanks.",
-    "image": "/images/museum/sdkfz-222.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/The_British_Army_in_North_Africa_1941_E3776.jpg",
     "imageCredit": "Imperial War Museums / Public Domain"
+  },
+  {
+    "id": "vickers-k-gun",
+    "name": "Vickers K Machine Gun",
+    "type": "sasWeapon",
+    "nation": "allied",
+    "country": "United Kingdom",
+    "description": "The Vickers K (also known as Vickers Gas Operated or VGO) was the signature weapon of the SAS and LRDG in North Africa. Originally designed as an aircraft observer's gun, its exceptional rate of fire made it devastating when twin-mounted on desert raiding vehicles.",
+    "specifications": {
+      "caliber": ".303 British",
+      "rateOfFire": "950-1,200 rounds/min",
+      "weight": "21 lb (9.5 kg)",
+      "feedSystem": "96-round pan magazine",
+      "effectiveRange": "600 yards (550 m)"
+    },
+    "desertRole": "Twin Vickers K guns mounted on SAS jeeps could destroy parked aircraft, vehicles, and supply dumps in seconds. The high rate of fire and low-friction locking design meant the gun rarely jammed even in sandy conditions—critical for hit-and-run desert raids.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Vickers-K-machine-gun-batey-haosef-1.jpg",
+    "imageCredit": "Bukvoed, CC BY 4.0, via Wikimedia Commons"
+  },
+  {
+    "id": "thompson-smg",
+    "name": "Thompson Submachine Gun",
+    "type": "sasWeapon",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The Thompson M1928, known as the 'Tommy Gun,' was prized by SAS operators for close-quarters combat during raids. Its heavy .45 ACP rounds provided excellent stopping power, and its reliability in harsh conditions made it a favorite among special forces.",
+    "specifications": {
+      "caliber": ".45 ACP",
+      "rateOfFire": "600-725 rounds/min",
+      "weight": "10.8 lb (4.9 kg)",
+      "capacity": "20 or 30-round box, 50 or 100-round drum",
+      "effectiveRange": "165 yards (150 m)"
+    },
+    "desertRole": "SAS raiders used Thompsons for clearing enemy positions and close-quarters engagements during airfield attacks. David Stirling himself favored the Thompson for its firepower and intimidation factor during night raids.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Submachine_gun_M1928_Thompson.jpg",
+    "imageCredit": "Stefan Kühn, CC BY-SA 3.0, via Wikimedia Commons"
+  },
+  {
+    "id": "fairbairn-sykes",
+    "name": "Fairbairn-Sykes Fighting Knife",
+    "type": "sasWeapon",
+    "nation": "allied",
+    "country": "United Kingdom",
+    "description": "The iconic double-edged fighting knife issued to British Commandos, SAS, and other special forces. Designed by William Fairbairn and Eric Sykes based on their experience in Shanghai, it became a symbol of elite British forces.",
+    "specifications": {
+      "bladeLength": "6.75 in (171 mm)",
+      "overallLength": "11.5 in (292 mm)",
+      "weight": "8 oz (230 g)",
+      "bladeType": "Double-edged stiletto",
+      "manufacturer": "Wilkinson Sword"
+    },
+    "desertRole": "The F-S knife was used for silent sentry removal and close combat during SAS raids. Its slim profile allowed for quick, lethal thrusts. The knife became so associated with special forces that it appears in commando unit insignia to this day.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Fairbairn_Sykes_Commando_Dagger_noBG.jpg",
+    "imageCredit": "Polonoid, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  {
+    "id": "lewis-gun",
+    "name": "Lewis Gun",
+    "type": "sasWeapon",
+    "nation": "allied",
+    "country": "United States/United Kingdom",
+    "description": "The Lewis Gun was a WWI-era light machine gun that saw continued service with the LRDG and early SAS patrols. Its distinctive pan magazine and air-cooling shroud made it recognizable, and it provided valuable firepower for desert reconnaissance missions.",
+    "specifications": {
+      "caliber": ".303 British",
+      "rateOfFire": "500-600 rounds/min",
+      "weight": "28 lb (12.7 kg)",
+      "feedSystem": "47 or 97-round pan magazine",
+      "effectiveRange": "880 yards (800 m)"
+    },
+    "desertRole": "Before the Vickers K became standard, LRDG and early SAS patrols used Lewis Guns mounted on their vehicles. While heavier and slower-firing than the Vickers K, the Lewis was reliable and provided sustained firepower for desert engagements.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Lewis_Gun.jpg",
+    "imageCredit": "kitmasterbloke, CC BY 2.0, via Wikimedia Commons"
   }
 ]

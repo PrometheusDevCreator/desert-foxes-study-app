@@ -1,294 +1,368 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import Image from 'next/image';
 
 interface IntroPageProps {
   onComplete: () => void;
 }
 
 const introText = [
-  {
-    paragraph: `The year is 1941. The vast, unforgiving expanse of the North African desert has become the pivot point of the global struggle. Under the command of the brilliant and audacious "Desert Fox," Field Marshal Erwin Rommel, the mechanized might of the German Afrika Korps has swept across the sands, pushing the British Eighth Army to the very brink of collapse.`
-  },
-  {
-    paragraph: `With the strategic prize of the Suez Canal hanging in the balance, the desert war has evolved into a deadly game of armored chess, centered on the besieged deep-water port of Tobruk—a lonely bastion of Allied defiance holding out against overwhelming odds.`
-  },
-  {
-    paragraph: `As the sun-scorched front stabilizes near the obscure railway halt of El Alamein, the conventional rules of engagement are being rewritten. While the Great Armies prepare for a climactic confrontation in the dunes, a new breed of soldier emerges from the heat haze.`
-  },
-  {
-    paragraph: `Led by the visionary David Stirling, a small band of renegades forms the Special Air Service—the SAS. Operating deep behind enemy lines with "L" Detachment, these desert raiders strike like ghosts against Rommel's airfields and supply lines, proving that in this war of shifting sands, courage and initiative can turn the tide of history.`
-  }
+  "1941.",
+  "The vast, unforgiving expanse of the North African desert has become a vital pivot point of WWII.",
+  "Under the command of the brilliant and audacious \"Desert Fox,\" Field Marshal Erwin Rommel, the mechanized might of the German Afrika Korps has swept across the sands, pushing the British Eighth Army to the very brink of collapse.",
+  "With the strategic prize of the Suez Canal hanging in the balance, the desert war has evolved into a deadly game of armored chess, centered on the besieged deep-water port of Tobruk\u2014a lonely bastion of Allied defiance holding out against overwhelming odds.",
+  "As the sun-scorched front stabilizes near the obscure railway halt of El Alamein, the conventional rules of engagement are being rewritten.",
+  "While the Great Armies prepare for a climactic confrontation in the dunes, a new breed of soldier emerges from the heat haze.",
+  "Led by the visionary David Stirling, a small band of renegades operate deep behind enemy lines.",
+  "As \"L\" Detachment, these desert raiders strike like ghosts against Rommel's airfields and supply lines, causing havoc and weakening the enemy's grip.",
+  "They were soon to be known by another name:",
+  "The SAS.",
+  "This is the story of the North African war.",
+  "This is the story of the Desert Foxes."
 ];
 
+// Timing configuration (in milliseconds) - total ~134 seconds to match music
+const SECTION_TIMINGS = [
+  { start: 0, fadeIn: 1500, display: 2500, fadeOut: 1000 },      // "1941."
+  { start: 5000, fadeIn: 2000, display: 5000, fadeOut: 1500 },   // "The vast..."
+  { start: 14000, fadeIn: 2000, display: 9000, fadeOut: 1500 },  // "Under the command..."
+  { start: 27000, fadeIn: 2000, display: 10000, fadeOut: 1500 }, // "With the strategic..."
+  { start: 41000, fadeIn: 2000, display: 6000, fadeOut: 1500 },  // "As the sun-scorched..."
+  { start: 51000, fadeIn: 2000, display: 6000, fadeOut: 1500 },  // "While the Great Armies..."
+  { start: 61000, fadeIn: 2000, display: 5000, fadeOut: 1500 },  // "Led by the visionary..."
+  { start: 70000, fadeIn: 2000, display: 7000, fadeOut: 1500 },  // "As L Detachment..."
+  { start: 81000, fadeIn: 1500, display: 3000, fadeOut: 1000 },  // "They were soon..."
+  { start: 87000, fadeIn: 2000, display: 4000, fadeOut: 1500 },  // "The SAS."
+  { start: 95000, fadeIn: 2000, display: 4000, fadeOut: 1500 },  // "This is the story of..."
+  { start: 103000, fadeIn: 2000, display: 5000, fadeOut: 1500 }, // "This is the story of the Desert Foxes."
+];
+
+const ROMMEL_FADE_START = 10000;   // Rommel fades in with section 2-3
+const ROMMEL_FADE_OUT = 55000;     // Rommel fades out
+const SAS_FADE_START = 58000;      // SAS fades in with section 6-7
+const SAS_FADE_OUT = 100000;       // SAS fades out
+const SHOW_CONTINUE_AT = 115000;   // Show continue prompt
+
 export default function IntroPage({ onComplete }: IntroPageProps) {
-  const [visibleParagraphs, setVisibleParagraphs] = useState<number[]>([]);
+  const [currentSection, setCurrentSection] = useState(-1);
+  const [sectionOpacity, setSectionOpacity] = useState(0);
+  const [rommelOpacity, setRommelOpacity] = useState(0);
+  const [sasOpacity, setSasOpacity] = useState(0);
   const [showContinue, setShowContinue] = useState(false);
-  const [audioPlaying, setAudioPlaying] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [audioStarted, setAudioStarted] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
+  const startTimeRef = useRef<number>(0);
+
+  const handleContinue = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+    }
+    onComplete();
+  }, [onComplete]);
+
+  // Start the experience
+  const startExperience = useCallback(() => {
+    if (audioStarted) return;
+
+    setAudioStarted(true);
+    startTimeRef.current = Date.now();
+
+    if (audioRef.current) {
+      audioRef.current.volume = 0.5;
+      audioRef.current.play().catch(console.error);
+    }
+  }, [audioStarted]);
 
   useEffect(() => {
     setMounted(true);
 
-    // Fade in paragraphs one at a time
-    const timers: NodeJS.Timeout[] = [];
+    // Auto-start after a brief delay
+    const autoStartTimer = setTimeout(() => {
+      startExperience();
+    }, 1000);
 
-    introText.forEach((_, index) => {
-      const timer = setTimeout(() => {
-        setVisibleParagraphs(prev => [...prev, index]);
-      }, 2000 + index * 3500); // Start at 2s, then every 3.5s
-      timers.push(timer);
-    });
+    return () => clearTimeout(autoStartTimer);
+  }, [startExperience]);
 
-    // Show continue prompt after all paragraphs
-    const continueTimer = setTimeout(() => {
-      setShowContinue(true);
-    }, 2000 + introText.length * 3500 + 1000);
-    timers.push(continueTimer);
+  // Animation loop
+  useEffect(() => {
+    if (!audioStarted) return;
 
-    return () => timers.forEach(t => clearTimeout(t));
-  }, []);
+    const animationLoop = () => {
+      const elapsed = Date.now() - startTimeRef.current;
 
-  const handleContinue = useCallback(() => {
-    onComplete();
-  }, [onComplete]);
+      // Handle text sections
+      for (let i = SECTION_TIMINGS.length - 1; i >= 0; i--) {
+        const timing = SECTION_TIMINGS[i];
+        const sectionEnd = timing.start + timing.fadeIn + timing.display + timing.fadeOut;
 
+        if (elapsed >= timing.start && elapsed < sectionEnd) {
+          if (currentSection !== i) {
+            setCurrentSection(i);
+          }
+
+          // Calculate opacity for this section
+          const sectionElapsed = elapsed - timing.start;
+          let opacity = 0;
+
+          if (sectionElapsed < timing.fadeIn) {
+            // Fading in
+            opacity = sectionElapsed / timing.fadeIn;
+          } else if (sectionElapsed < timing.fadeIn + timing.display) {
+            // Fully visible
+            opacity = 1;
+          } else {
+            // Fading out
+            const fadeOutElapsed = sectionElapsed - timing.fadeIn - timing.display;
+            opacity = 1 - (fadeOutElapsed / timing.fadeOut);
+          }
+
+          setSectionOpacity(Math.max(0, Math.min(1, opacity)));
+          break;
+        }
+      }
+
+      // Handle Rommel image
+      if (elapsed >= ROMMEL_FADE_START && elapsed < ROMMEL_FADE_OUT) {
+        const rommelElapsed = elapsed - ROMMEL_FADE_START;
+        if (rommelElapsed < 3000) {
+          setRommelOpacity(rommelElapsed / 3000 * 0.4);
+        } else if (elapsed > ROMMEL_FADE_OUT - 3000) {
+          const fadeOutElapsed = ROMMEL_FADE_OUT - elapsed;
+          setRommelOpacity(fadeOutElapsed / 3000 * 0.4);
+        } else {
+          setRommelOpacity(0.4);
+        }
+      } else {
+        setRommelOpacity(0);
+      }
+
+      // Handle SAS image
+      if (elapsed >= SAS_FADE_START && elapsed < SAS_FADE_OUT) {
+        const sasElapsed = elapsed - SAS_FADE_START;
+        if (sasElapsed < 3000) {
+          setSasOpacity(sasElapsed / 3000 * 0.4);
+        } else if (elapsed > SAS_FADE_OUT - 3000) {
+          const fadeOutElapsed = SAS_FADE_OUT - elapsed;
+          setSasOpacity(fadeOutElapsed / 3000 * 0.4);
+        } else {
+          setSasOpacity(0.4);
+        }
+      } else {
+        setSasOpacity(0);
+      }
+
+      // Show continue prompt
+      if (elapsed >= SHOW_CONTINUE_AT && !showContinue) {
+        setShowContinue(true);
+      }
+    };
+
+    const intervalId = setInterval(animationLoop, 50);
+    return () => clearInterval(intervalId);
+  }, [audioStarted, currentSection, showContinue]);
+
+  // Keyboard/click handling
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Enter' || e.key === ' ') {
+      if (!audioStarted) {
+        startExperience();
+        return;
+      }
+      if (showContinue && (e.key === 'Enter' || e.key === ' ')) {
+        handleContinue();
+      }
+    };
+
+    const handleClick = () => {
+      if (!audioStarted) {
+        startExperience();
+        return;
+      }
+      if (showContinue) {
         handleContinue();
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [handleContinue]);
+    window.addEventListener('click', handleClick);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('click', handleClick);
+    };
+  }, [audioStarted, showContinue, handleContinue, startExperience]);
 
-  const playMusic = () => {
-    if (typeof window !== 'undefined' && !audioPlaying) {
-      const audio = document.getElementById('intro-music') as HTMLAudioElement;
-      if (audio) {
-        audio.volume = 0.3;
-        audio.play().catch(() => {
-          // Autoplay blocked - user will need to interact
-        });
-        setAudioPlaying(true);
-      }
-    }
-  };
-
+  // Handle audio end
   useEffect(() => {
-    // Try to play music after mount
-    const timer = setTimeout(playMusic, 500);
-    return () => clearTimeout(timer);
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    const handleEnded = () => {
+      setShowContinue(true);
+    };
+
+    audio.addEventListener('ended', handleEnded);
+    return () => audio.removeEventListener('ended', handleEnded);
   }, []);
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex flex-col items-center justify-center overflow-hidden cursor-pointer"
-      onClick={handleContinue}
+      className="fixed inset-0 z-[100] flex flex-col items-center justify-center overflow-hidden"
       style={{ backgroundColor: '#0a0806' }}
     >
-      {/* Background audio - dramatic orchestral/period music */}
+      {/* Background audio */}
       <audio
-        id="intro-music"
-        loop
+        ref={audioRef}
         preload="auto"
-        src="https://cdn.pixabay.com/audio/2022/03/15/audio_c8c8a73467.mp3"
+        src="/intro/intro-music.mp3"
       />
 
-      {/* Animated desert background */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Gradient overlay simulating desert dusk */}
+      {/* Desert background image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/intro/desert-background.png"
+          alt="Desert landscape"
+          fill
+          className="object-cover"
+          style={{
+            opacity: mounted ? 0.7 : 0,
+            transition: 'opacity 2s ease-in-out'
+          }}
+          priority
+        />
+        {/* Dark overlay for better text readability */}
         <div
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(to bottom, #1a0f05 0%, #2d1810 30%, #3d2415 50%, #4a2d1a 70%, #1a0f05 100%)',
-          }}
-        />
-
-        {/* Animated sand dune layers */}
-        <div
-          className={`absolute bottom-0 left-0 right-0 h-[40%] ${mounted ? 'animate-dune-1' : ''}`}
-          style={{
-            background: 'linear-gradient(to top, #8B7355 0%, #A0896A 40%, transparent 100%)',
-            clipPath: 'polygon(0 60%, 15% 40%, 30% 55%, 50% 35%, 70% 50%, 85% 30%, 100% 45%, 100% 100%, 0 100%)',
-            opacity: 0.3,
-          }}
-        />
-        <div
-          className={`absolute bottom-0 left-0 right-0 h-[35%] ${mounted ? 'animate-dune-2' : ''}`}
-          style={{
-            background: 'linear-gradient(to top, #6B5344 0%, #8B7355 50%, transparent 100%)',
-            clipPath: 'polygon(0 45%, 20% 60%, 40% 40%, 60% 55%, 80% 35%, 100% 50%, 100% 100%, 0 100%)',
-            opacity: 0.4,
-          }}
-        />
-
-        {/* Heat shimmer effect */}
-        <div
-          className={`absolute inset-0 ${mounted ? 'animate-heat' : ''}`}
-          style={{
-            background: 'radial-gradient(ellipse at center, rgba(255,200,150,0.08) 0%, transparent 60%)',
-          }}
-        />
-
-        {/* Stars in the upper portion (dusk sky) */}
-        <div className="absolute inset-0" style={{ opacity: 0.4 }}>
-          {[...Array(30)].map((_, i) => (
-            <div
-              key={i}
-              className="absolute w-1 h-1 bg-white rounded-full animate-twinkle"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 40}%`,
-                animationDelay: `${Math.random() * 3}s`,
-                opacity: Math.random() * 0.7 + 0.3,
-              }}
-            />
-          ))}
-        </div>
-
-        {/* Film grain overlay */}
-        <div
-          className="absolute inset-0 opacity-[0.04] animate-grain"
-          style={{
-            backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 200\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'noise\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.9\' numOctaves=\'4\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23noise)\'/%3E%3C/svg%3E")',
+            background: 'linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 100%)'
           }}
         />
       </div>
 
-      {/* Main content container */}
-      <div className="relative z-10 max-w-4xl mx-auto px-8 md:px-12">
-        {/* Text content with fade-in */}
-        <div className="space-y-8 md:space-y-10">
-          {introText.map((item, index) => (
-            <p
-              key={index}
-              className={`text-base md:text-lg lg:text-xl leading-relaxed md:leading-loose text-center transition-all duration-[2000ms] ${
-                visibleParagraphs.includes(index)
-                  ? 'opacity-100 translate-y-0'
-                  : 'opacity-0 translate-y-8'
-              }`}
-              style={{
-                fontFamily: "'Palatino Linotype', 'Book Antiqua', 'Crimson Text', Georgia, serif",
-                color: '#d4c4a8',
-                textShadow: '1px 1px 4px rgba(0,0,0,0.8)',
-                letterSpacing: '0.02em',
-                lineHeight: '1.9',
-              }}
-            >
-              {item.paragraph}
-            </p>
-          ))}
-        </div>
-
-        {/* Continue prompt */}
-        <div
-          className={`mt-16 text-center transition-all duration-1000 ${
-            showContinue ? 'opacity-100' : 'opacity-0'
-          }`}
-        >
-          <p
-            className="text-sm md:text-base tracking-[0.3em] uppercase animate-pulse"
-            style={{
-              fontFamily: "'Georgia', 'Times New Roman', serif",
-              color: '#a89070',
-            }}
-          >
-            Press Enter or Click to Continue
-          </p>
-        </div>
+      {/* Rommel image - left side */}
+      <div
+        className="absolute left-0 bottom-0 w-1/3 h-full pointer-events-none"
+        style={{
+          opacity: rommelOpacity,
+          transition: 'opacity 0.1s linear'
+        }}
+      >
+        <Image
+          src="/intro/rommel.png"
+          alt="Field Marshal Erwin Rommel"
+          fill
+          className="object-contain object-bottom"
+          style={{
+            filter: 'grayscale(30%) sepia(20%)',
+            mixBlendMode: 'luminosity'
+          }}
+        />
       </div>
+
+      {/* SAS image - right side */}
+      <div
+        className="absolute right-0 bottom-0 w-1/3 h-full pointer-events-none"
+        style={{
+          opacity: sasOpacity,
+          transition: 'opacity 0.1s linear'
+        }}
+      >
+        <Image
+          src="/intro/sas.png"
+          alt="SAS Soldiers"
+          fill
+          className="object-contain object-bottom"
+          style={{
+            filter: 'grayscale(30%) sepia(20%)',
+            mixBlendMode: 'luminosity'
+          }}
+        />
+      </div>
+
+      {/* Film grain overlay */}
+      <div
+        className={`absolute inset-0 pointer-events-none opacity-[0.03] ${mounted ? 'animate-grain' : ''}`}
+        style={{
+          backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 200 200\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'noise\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.9\' numOctaves=\'4\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23noise)\'/%3E%3C/svg%3E")',
+        }}
+      />
 
       {/* Vignette effect */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          boxShadow: 'inset 0 0 150px 60px rgba(0,0,0,0.7)',
+          boxShadow: 'inset 0 0 200px 100px rgba(0,0,0,0.8)',
         }}
       />
 
+      {/* Main text content */}
+      <div className="relative z-10 max-w-3xl mx-auto px-8 md:px-12 text-center">
+        {currentSection >= 0 && currentSection < introText.length && (
+          <p
+            className="text-xl md:text-2xl lg:text-3xl leading-relaxed md:leading-loose"
+            style={{
+              fontFamily: "'Palatino Linotype', 'Book Antiqua', 'Crimson Text', Georgia, serif",
+              color: '#e8dcc8',
+              textShadow: '2px 2px 8px rgba(0,0,0,0.9), 0 0 30px rgba(0,0,0,0.5)',
+              letterSpacing: '0.03em',
+              lineHeight: '1.8',
+              opacity: sectionOpacity,
+              transition: 'opacity 0.1s linear',
+            }}
+          >
+            {introText[currentSection]}
+          </p>
+        )}
+      </div>
+
+      {/* Continue prompt */}
+      <div
+        className={`absolute bottom-16 left-0 right-0 text-center transition-all duration-1000 ${
+          showContinue ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+      >
+        <p
+          className="text-sm md:text-base tracking-[0.3em] uppercase animate-pulse cursor-pointer"
+          style={{
+            fontFamily: "'Georgia', 'Times New Roman', serif",
+            color: '#c4a878',
+            textShadow: '1px 1px 4px rgba(0,0,0,0.8)',
+          }}
+        >
+          Press Enter to Continue
+        </p>
+      </div>
+
+      {/* Click/tap prompt before start */}
+      {!audioStarted && (
+        <div className="absolute inset-0 flex items-center justify-center bg-black/50 cursor-pointer z-20">
+          <p
+            className="text-lg md:text-xl tracking-[0.2em] uppercase animate-pulse"
+            style={{
+              fontFamily: "'Georgia', 'Times New Roman', serif",
+              color: '#c4a878',
+            }}
+          >
+            Click or Press Any Key to Begin
+          </p>
+        </div>
+      )}
+
       {/* CSS animations */}
       <style jsx>{`
-        @keyframes dune-1 {
-          0%, 100% {
-            transform: translateX(0);
-          }
-          50% {
-            transform: translateX(-10px);
-          }
-        }
-        @keyframes dune-2 {
-          0%, 100% {
-            transform: translateX(0);
-          }
-          50% {
-            transform: translateX(8px);
-          }
-        }
-        @keyframes heat {
-          0%, 100% {
-            opacity: 0.5;
-            transform: scale(1);
-          }
-          50% {
-            opacity: 0.8;
-            transform: scale(1.05);
-          }
-        }
-        @keyframes twinkle {
-          0%, 100% {
-            opacity: 0.3;
-          }
-          50% {
-            opacity: 1;
-          }
-        }
         @keyframes grain {
-          0%, 100% {
-            transform: translate(0, 0);
-          }
-          10% {
-            transform: translate(-1%, -1%);
-          }
-          20% {
-            transform: translate(1%, 1%);
-          }
-          30% {
-            transform: translate(-1%, 1%);
-          }
-          40% {
-            transform: translate(1%, -1%);
-          }
-          50% {
-            transform: translate(-1%, 0);
-          }
-          60% {
-            transform: translate(1%, 0);
-          }
-          70% {
-            transform: translate(0, -1%);
-          }
-          80% {
-            transform: translate(0, 1%);
-          }
-          90% {
-            transform: translate(-1%, -1%);
-          }
-        }
-        .animate-dune-1 {
-          animation: dune-1 15s ease-in-out infinite;
-        }
-        .animate-dune-2 {
-          animation: dune-2 12s ease-in-out infinite;
-          animation-delay: -5s;
-        }
-        .animate-heat {
-          animation: heat 8s ease-in-out infinite;
-        }
-        .animate-twinkle {
-          animation: twinkle 3s ease-in-out infinite;
+          0%, 100% { transform: translate(0, 0); }
+          10% { transform: translate(-1%, -1%); }
+          20% { transform: translate(1%, 1%); }
+          30% { transform: translate(-1%, 1%); }
+          40% { transform: translate(1%, -1%); }
+          50% { transform: translate(-1%, 0); }
+          60% { transform: translate(1%, 0); }
+          70% { transform: translate(0, -1%); }
+          80% { transform: translate(0, 1%); }
+          90% { transform: translate(-1%, -1%); }
         }
         .animate-grain {
           animation: grain 0.5s steps(10) infinite;

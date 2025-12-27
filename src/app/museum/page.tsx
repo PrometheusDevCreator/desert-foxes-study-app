@@ -6,6 +6,7 @@ import ImageWithFallback from '@/components/ImageWithFallback';
 
 const categories = [
   { id: 'all', label: 'All Equipment' },
+  { id: 'sasWeapon', label: 'SAS Weapons' },
   { id: 'tank', label: 'Tanks' },
   { id: 'vehicle', label: 'Vehicles' },
   { id: 'aircraft', label: 'Aircraft' },
@@ -138,7 +139,132 @@ export default function MuseumPage() {
 
                 <h3 className="font-bold mb-3">Role in the Desert War</h3>
                 <p className="text-[var(--foreground-muted)] text-sm">{currentItem.desertRole}</p>
+
+                {/* Expanded SAS Jeep section */}
+                {currentItem.modifications && (
+                  <div className="mt-6 pt-6 border-t border-[var(--border)]">
+                    <h3 className="font-bold mb-3 text-[var(--accent-sand)]">Vehicle Modifications</h3>
+                    <div className="space-y-3">
+                      {Object.entries(currentItem.modifications).map(([key, value]) => (
+                        <div key={key}>
+                          <span className="text-xs text-[var(--foreground-muted)] uppercase tracking-wide">
+                            {key}
+                          </span>
+                          <p className="text-sm">{String(value)}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {currentItem.famousRaids && (
+                  <div className="mt-6 pt-6 border-t border-[var(--border)]">
+                    <h3 className="font-bold mb-3 text-[var(--accent-sand)]">Famous Raids</h3>
+                    <ul className="space-y-2">
+                      {currentItem.famousRaids.map((raid: string, idx: number) => (
+                        <li key={idx} className="flex gap-2 text-sm">
+                          <span className="text-[var(--accent-sand)]">&#8226;</span>
+                          <span className="text-[var(--foreground-muted)]">{raid}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
+            </div>
+          </div>
+        )}
+
+        {/* Featured SAS Jeep Spotlight */}
+        {!currentItem && selectedCategory === 'all' && selectedNation !== 'axis' && (
+          <div className="mb-10">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-1 h-8 bg-[var(--accent-sand)]" />
+              <h2 className="text-xl font-bold">SAS Armed Jeep Spotlight</h2>
+              <span className="badge badge-command text-xs">Featured</span>
+            </div>
+            {(() => {
+              const sasJeep = museumItems.find(i => i.id === 'sas-jeep');
+              if (!sasJeep) return null;
+              return (
+                <div
+                  onClick={() => setSelectedItem('sas-jeep')}
+                  className="card p-6 cursor-pointer hover:border-[var(--accent-sand)] transition-all border-[var(--accent-sand)]/30"
+                >
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <div className="relative aspect-video bg-[var(--background-secondary)] rounded-lg overflow-hidden mb-3">
+                        <ImageWithFallback
+                          src={sasJeep.image}
+                          alt={sasJeep.name}
+                          className="w-full h-full object-cover"
+                        />
+                        <div className="absolute top-2 left-2 px-2 py-1 rounded text-xs bg-[var(--accent-sand)] text-black font-bold">
+                          ICONIC VEHICLE
+                        </div>
+                      </div>
+                      <p className="text-xs text-[var(--foreground-muted)] text-center">{sasJeep.imageCredit}</p>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold mb-2">{sasJeep.name}</h3>
+                      <p className="text-sm text-[var(--foreground-muted)] mb-4">{sasJeep.description}</p>
+                      <div className="grid grid-cols-2 gap-2 mb-4">
+                        <div className="bg-[var(--background-secondary)] p-2 rounded">
+                          <span className="text-xs text-[var(--foreground-muted)]">Primary Armament</span>
+                          <p className="font-mono text-sm">Twin Vickers K guns</p>
+                        </div>
+                        <div className="bg-[var(--background-secondary)] p-2 rounded">
+                          <span className="text-xs text-[var(--foreground-muted)]">Rate of Fire</span>
+                          <p className="font-mono text-sm">2,000+ rpm combined</p>
+                        </div>
+                      </div>
+                      <p className="text-sm text-[var(--accent-sand)]">Click to see full specifications, modifications, and famous raids →</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })()}
+          </div>
+        )}
+
+        {/* Featured SAS Weapons Section */}
+        {!currentItem && selectedCategory === 'all' && selectedNation !== 'axis' && (
+          <div className="mb-10">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-1 h-8 bg-[var(--accent-sand)]" />
+              <h2 className="text-xl font-bold">Special Weapons of the SAS</h2>
+              <span className="badge badge-command text-xs">Featured</span>
+            </div>
+            <p className="text-sm text-[var(--foreground-muted)] mb-6">
+              The weapons that made the Special Air Service legendary during their daring raids behind enemy lines.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              {museumItems.filter(i => i.type === 'sasWeapon').map(item => (
+                <div
+                  key={item.id}
+                  onClick={() => setSelectedItem(item.id)}
+                  className="card overflow-hidden cursor-pointer border-[var(--accent-sand)]/30 hover:border-[var(--accent-sand)] transition-all group"
+                >
+                  <div className="relative aspect-video bg-[var(--background-secondary)]">
+                    <ImageWithFallback
+                      src={item.image}
+                      alt={item.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-2 left-2 px-2 py-1 rounded text-xs bg-[var(--accent-sand)] text-black">
+                      SAS
+                    </div>
+                  </div>
+                  <div className="p-3">
+                    <h3 className="font-bold text-sm mb-1 group-hover:text-[var(--accent-sand)] transition-colors">
+                      {item.name}
+                    </h3>
+                    <p className="text-xs text-[var(--foreground-muted)] line-clamp-2">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         )}

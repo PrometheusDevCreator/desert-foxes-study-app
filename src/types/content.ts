@@ -154,7 +154,7 @@ export type NormandySite = DesertSite;
 export interface MuseumItem {
   id: string;
   name: string;
-  type: 'tank' | 'vehicle' | 'aircraft' | 'weapon' | 'artillery' | 'equipment';
+  type: 'tank' | 'vehicle' | 'aircraft' | 'weapon' | 'artillery' | 'equipment' | 'sasWeapon';
   nation: 'allied' | 'axis';
   country: string;
   description: string;
@@ -162,6 +162,9 @@ export interface MuseumItem {
   desertRole: string;
   image: string;
   imageCredit: string;
+  featured?: boolean;
+  modifications?: Record<string, string>;
+  famousRaids?: string[];
 }
 
 export interface HistoricalMap {
