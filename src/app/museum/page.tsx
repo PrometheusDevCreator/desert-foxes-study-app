@@ -36,7 +36,7 @@ export default function MuseumPage() {
     <div className="min-h-screen py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">Desert Arsenal</h1>
+          <h1 className="text-3xl font-bold mb-2">Desert Armoury</h1>
           <p className="text-[var(--foreground-muted)]">
             Explore the weapons, vehicles, and equipment used by Allied and Axis forces during the North African Campaign.
           </p>

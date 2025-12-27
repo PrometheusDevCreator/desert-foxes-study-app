@@ -2,39 +2,53 @@
 
 import { useState, useEffect, ReactNode } from 'react';
 import LandingPage from './LandingPage';
+import IntroPage from './IntroPage';
 
 interface AppWrapperProps {
   children: ReactNode;
 }
 
+type AppStage = 'loading' | 'landing' | 'intro' | 'app';
+
 export default function AppWrapper({ children }: AppWrapperProps) {
-  const [showLanding, setShowLanding] = useState(true);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [stage, setStage] = useState<AppStage>('loading');
 
   useEffect(() => {
     // Check if user has already entered the app this session
     const hasEntered = sessionStorage.getItem('desert-foxes-entered');
     if (hasEntered === 'true') {
-      setShowLanding(false);
+      setStage('app');
+    } else {
+      setStage('landing');
     }
-    setIsLoaded(true);
   }, []);
 
-  const handleEnter = () => {
-    sessionStorage.setItem('desert-foxes-entered', 'true');
-    setShowLanding(false);
+  const handleLandingEnter = () => {
+    setStage('intro');
   };
 
-  // Don't render anything until we've checked sessionStorage
-  if (!isLoaded) {
+  const handleIntroComplete = () => {
+    sessionStorage.setItem('desert-foxes-entered', 'true');
+    setStage('app');
+  };
+
+  // Loading state
+  if (stage === 'loading') {
     return (
       <div className="fixed inset-0 z-[100]" style={{ backgroundColor: 'var(--background, #0d1117)' }} />
     );
   }
 
-  if (showLanding) {
-    return <LandingPage onEnter={handleEnter} />;
+  // Landing page
+  if (stage === 'landing') {
+    return <LandingPage onEnter={handleLandingEnter} />;
   }
 
+  // Cinematic intro
+  if (stage === 'intro') {
+    return <IntroPage onComplete={handleIntroComplete} />;
+  }
+
+  // Main app
   return <>{children}</>;
 }

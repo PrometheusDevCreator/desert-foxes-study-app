@@ -10,7 +10,7 @@ const navItems = [
   { href: '/modules', label: 'Modules' },
   { href: '/timeline', label: 'Timeline' },
   { href: '/maps', label: 'Map Room' },
-  { href: '/museum', label: 'Arsenal' },
+  { href: '/museum', label: 'Armoury' },
   { href: '/videos', label: 'Videos' },
   { href: '/flashcards', label: 'Flashcards' },
   { href: '/quizzes', label: 'Quizzes' },

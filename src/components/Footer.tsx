@@ -33,7 +33,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/museum" className="text-[var(--foreground-muted)] hover:text-[var(--accent-sand)] transition-colors">
-                  Desert Arsenal
+                  Desert Armoury
                 </Link>
               </li>
               <li>

@@ -3,8 +3,8 @@
     "id": "north-africa-overview",
     "title": "North African Campaign Overview Map",
     "description": "Overview map showing the theater of operations from Egypt to Tunisia, including major supply routes, key ports, and the extent of Axis and Allied territorial control at various points.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Second_world_war_africa_map-en.svg/1280px-Second_world_war_africa_map-en.svg.png",
-    "credit": "Public domain, via Wikimedia Commons",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Africa1940.png",
+    "credit": "Jackaranga, CC BY-SA 3.0, via Wikimedia Commons",
     "category": "overview",
     "relatedModules": ["north-african-campaign", "rommel-desert-fox"]
   },
@@ -12,7 +12,7 @@
     "id": "tobruk-siege",
     "title": "Siege of Tobruk Map",
     "description": "Detailed map of Tobruk showing the defensive perimeter held by Australian and British forces during the 241-day siege. Includes German and Italian attack vectors and the Red Line defensive positions.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Tobruk_defences_1941.png/1024px-Tobruk_defences_1941.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Tobruk_perimeter%2C_April-June_1941.jpg",
     "credit": "Australian War Memorial, Public domain",
     "category": "tobruk",
     "relatedModules": ["key-battles"]
@@ -21,7 +21,7 @@
     "id": "el-alamein-first",
     "title": "First Battle of El Alamein",
     "description": "Map showing the positions during the July 1942 battle where Auchinleck halted Rommel's advance on Alexandria and Cairo. Demonstrates the critical 'bottleneck' geography between the Mediterranean and the Qattara Depression.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1942-1943_North_Africa.png/1280px-1942-1943_North_Africa.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/El_Alamein_dispositions_Oct_1942.jpg",
     "credit": "U.S. Army, Public domain",
     "category": "el-alamein",
     "relatedModules": ["key-battles"]
@@ -30,7 +30,7 @@
     "id": "el-alamein-second",
     "title": "Second Battle of El Alamein",
     "description": "Montgomery's Operation Lightfoot and Supercharge, October-November 1942. Shows the massive minefields, the break-in at Kidney Ridge, and the eventual breakthrough that sent Rommel into retreat.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2_Battle_of_El_Alamein_008.png/1024px-2_Battle_of_El_Alamein_008.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/El_Alamein_dispositions_Oct_1942.jpg",
     "credit": "U.S. Military, Public domain",
     "category": "el-alamein",
     "relatedModules": ["key-battles", "north-african-campaign"]
@@ -39,8 +39,8 @@
     "id": "rommel-advance-1942",
     "title": "Rommel's Advance to Egypt",
     "description": "Map tracking the Afrika Korps advance from El Agheila to El Alamein, January-July 1942. Shows the fall of Tobruk and the 'Gazala Gallop' that brought Rommel to the gates of Egypt.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/North_Africa_1940-42.svg/1280px-North_Africa_1940-42.svg.png",
-    "credit": "Wikimedia Commons, Public domain",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Mappa_del_Nord_Africa_1941_-_1942.svg",
+    "credit": "Wikimedia Commons, CC BY-SA 4.0",
     "category": "german",
     "relatedModules": ["rommel-desert-fox", "north-african-campaign"]
   },
@@ -48,8 +48,8 @@
     "id": "sas-raids-map",
     "title": "SAS Raid Locations 1941-1943",
     "description": "Map showing the locations of major SAS and LRDG raids on Axis airfields and supply lines, including Stirling's famous attacks on Sidi Haneish, Benghazi harbor, and Tamet airfield.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Western_desert_campaign_1941.png/1024px-Western_desert_campaign_1941.png",
-    "credit": "British National Archives, Public domain",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/WesternDesertBattle_Area1941_en.svg",
+    "credit": "Wikimedia Commons, CC BY-SA 3.0",
     "category": "campaign",
     "relatedModules": ["birth-of-sas"]
   },

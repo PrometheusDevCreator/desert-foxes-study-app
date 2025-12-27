@@ -57,7 +57,7 @@ export default function StartHerePage() {
             <div className="flex gap-4">
               <span className="w-8 h-8 rounded-full bg-[var(--accent-sand)]/20 flex items-center justify-center text-[var(--accent-sand)] font-bold flex-shrink-0">4</span>
               <div>
-                <h3 className="font-bold">Visit the Arsenal</h3>
+                <h3 className="font-bold">Visit the Armoury</h3>
                 <p className="text-sm text-[var(--foreground-muted)]">
                   Explore the tanks, aircraft, and equipment that fought in the desert from the Panzer III to the LRDG trucks.
                 </p>
