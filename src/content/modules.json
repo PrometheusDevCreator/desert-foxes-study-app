@@ -52,7 +52,7 @@
     "glossaryTerms": ["afrika-korps", "panzer", "pour-le-merite", "ghost-division"],
     "images": [
       {
-        "url": "/images/modules/rommel-portrait.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bundesarchiv_Bild_146-1973-012-43%2C_Erwin_Rommel.jpg",
         "caption": "Field Marshal Erwin Rommel in North Africa, 1942",
         "credit": "Bundesarchiv, Bild 146-1973-012-43 / CC-BY-SA 3.0",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1973-012-43,_Erwin_Rommel.jpg",
@@ -116,11 +116,11 @@
     "glossaryTerms": ["suez-canal", "operation-compass", "operation-torch", "western-desert-force"],
     "images": [
       {
-        "url": "/images/modules/desert-tanks.jpg",
-        "caption": "British tanks advancing across the Western Desert",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_British_Army_in_North_Africa_1942_E17616.jpg",
+        "caption": "A Crusader II tank in the Western Desert, October 1942",
         "credit": "Imperial War Museums, Public Domain",
-        "sourceLink": "https://commons.wikimedia.org/wiki/File:British_Crusader_tanks.jpg",
-        "alt": "British tanks in desert formation"
+        "sourceLink": "https://commons.wikimedia.org/wiki/File:The_British_Army_in_North_Africa_1942_E17616.jpg",
+        "alt": "British Crusader tank in desert"
       }
     ],
     "videos": [],
@@ -180,7 +180,7 @@
     "glossaryTerms": ["rats-of-tobruk", "gazala-line", "operation-crusader", "el-alamein"],
     "images": [
       {
-        "url": "/images/modules/el-alamein-artillery.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/El_Alamein_1942_-_British_artillery.jpg",
         "caption": "British artillery barrage at El Alamein, October 1942",
         "credit": "Imperial War Museums, Public Domain",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:El_Alamein_1942_-_British_artillery.jpg",
@@ -244,10 +244,10 @@
     "glossaryTerms": ["sas", "lrdg", "lewes-bomb", "l-detachment"],
     "images": [
       {
-        "url": "/images/modules/sas-jeeps.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Special_Air_Service_in_North_Africa_E_21337.jpg",
         "caption": "SAS patrol with armed jeeps in the North African desert",
         "credit": "Imperial War Museums, Public Domain",
-        "sourceLink": "https://commons.wikimedia.org/wiki/File:SAS_jeep_patrol.jpg",
+        "sourceLink": "https://commons.wikimedia.org/wiki/File:Special_Air_Service_in_North_Africa_E_21337.jpg",
         "alt": "SAS soldiers in armed jeeps in the desert"
       }
     ],
@@ -308,7 +308,7 @@
     "glossaryTerms": ["panzer", "88mm", "sherman", "matilda", "lrdg"],
     "images": [
       {
-        "url": "/images/modules/88mm-gun.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Bundesarchiv_Bild_101I-443-1589-07%2C_Nordafrika%2C_Flak_in_Stellung.jpg",
         "caption": "German 88mm Flak gun in North Africa",
         "credit": "Bundesarchiv, CC-BY-SA 3.0",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-443-1589-07,_Nordafrika,_Flak_in_Stellung.jpg",
