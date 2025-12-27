@@ -1,0 +1,146 @@
+[
+  {
+    "id": "afrika-korps",
+    "term": "Afrika Korps",
+    "definition": "The Deutsches Afrikakorps (DAK) was the German expeditionary force in North Africa commanded by Erwin Rommel from 1941-1943. It consisted primarily of the 15th and 21st Panzer Divisions.",
+    "relatedModules": ["rommel-desert-fox", "north-african-campaign"]
+  },
+  {
+    "id": "panzer",
+    "term": "Panzer",
+    "definition": "German word for 'armor' or 'tank.' Panzer divisions were Germany's armored formations, combining tanks, motorized infantry, and artillery for mobile warfare.",
+    "relatedModules": ["rommel-desert-fox", "desert-warfare-technology"]
+  },
+  {
+    "id": "pour-le-merite",
+    "term": "Pour le Merite",
+    "definition": "Imperial Germany's highest military decoration, informally known as the 'Blue Max.' Rommel received this honor for his actions at the Battle of Caporetto in 1917.",
+    "relatedModules": ["rommel-desert-fox"]
+  },
+  {
+    "id": "ghost-division",
+    "term": "Ghost Division",
+    "definition": "Nickname for Rommel's 7th Panzer Division during the 1940 invasion of France, earned because it advanced so rapidly that even German headquarters lost track of its position.",
+    "relatedModules": ["rommel-desert-fox"]
+  },
+  {
+    "id": "suez-canal",
+    "term": "Suez Canal",
+    "definition": "The vital waterway connecting the Mediterranean to the Red Sea. Britain's control of the canal was essential for communications with India and the Far East.",
+    "relatedModules": ["north-african-campaign"]
+  },
+  {
+    "id": "operation-compass",
+    "term": "Operation Compass",
+    "definition": "The British offensive in December 1940 that destroyed the Italian Tenth Army in Egypt and Libya, capturing 130,000 prisoners and prompting Germany to send forces to Africa.",
+    "relatedModules": ["north-african-campaign"]
+  },
+  {
+    "id": "operation-torch",
+    "term": "Operation Torch",
+    "definition": "The Allied invasion of French North Africa (Morocco and Algeria) on November 8, 1942. It was the first major American ground operation against Germany.",
+    "relatedModules": ["north-african-campaign"]
+  },
+  {
+    "id": "western-desert-force",
+    "term": "Western Desert Force",
+    "definition": "The British Commonwealth force that defended Egypt and fought in Libya from 1940-1941, later reorganized as the Eighth Army.",
+    "relatedModules": ["north-african-campaign"]
+  },
+  {
+    "id": "rats-of-tobruk",
+    "term": "Rats of Tobruk",
+    "definition": "The nickname adopted by the Australian and other Allied defenders of Tobruk during the 241-day siege in 1941, embracing a German propaganda insult.",
+    "relatedModules": ["key-battles"]
+  },
+  {
+    "id": "gazala-line",
+    "term": "Gazala Line",
+    "definition": "A 50-mile defensive line of fortified 'boxes' and minefields built by the British in early 1942, stretching from Gazala on the coast to Bir Hakeim in the south.",
+    "relatedModules": ["key-battles"]
+  },
+  {
+    "id": "operation-crusader",
+    "term": "Operation Crusader",
+    "definition": "The British offensive in November-December 1941 that relieved the siege of Tobruk and pushed Rommel back to El Agheila.",
+    "relatedModules": ["key-battles"]
+  },
+  {
+    "id": "el-alamein",
+    "term": "El Alamein",
+    "definition": "Egyptian town and railway station 60 miles west of Alexandria. The site of two crucial battles in 1942 that marked the turning point of the North African Campaign.",
+    "relatedModules": ["key-battles"]
+  },
+  {
+    "id": "sas",
+    "term": "SAS (Special Air Service)",
+    "definition": "British special forces unit founded by David Stirling in 1941. Originally designed for behind-the-lines raids on Axis airfields in North Africa.",
+    "relatedModules": ["birth-of-sas"]
+  },
+  {
+    "id": "lrdg",
+    "term": "LRDG (Long Range Desert Group)",
+    "definition": "British reconnaissance and raiding unit specializing in desert operations. The LRDG transported SAS teams to their targets and pioneered desert navigation techniques.",
+    "relatedModules": ["birth-of-sas", "desert-warfare-technology"]
+  },
+  {
+    "id": "lewes-bomb",
+    "term": "Lewes Bomb",
+    "definition": "A combined incendiary and explosive device developed by Jock Lewes of the SAS, specifically designed for destroying parked aircraft.",
+    "relatedModules": ["birth-of-sas"]
+  },
+  {
+    "id": "l-detachment",
+    "term": "L Detachment",
+    "definition": "The original designation for the SAS: 'L Detachment, Special Air Service Brigade.' The name was chosen to deceive German intelligence into believing a large airborne force existed.",
+    "relatedModules": ["birth-of-sas"]
+  },
+  {
+    "id": "88mm",
+    "term": "88mm Gun",
+    "definition": "The German 88mm Flak 36/37 anti-aircraft gun, adapted by Rommel as a devastating anti-tank weapon. Its long range and high velocity made it the most feared weapon in North Africa.",
+    "relatedModules": ["desert-warfare-technology"]
+  },
+  {
+    "id": "sherman",
+    "term": "M4 Sherman",
+    "definition": "American medium tank that arrived in North Africa in 1942. While not superior to German tanks individually, it was reliable, easy to maintain, and produced in vast numbers.",
+    "relatedModules": ["desert-warfare-technology"]
+  },
+  {
+    "id": "matilda",
+    "term": "Matilda II",
+    "definition": "British 'infantry tank' with heavy armor but slow speed. Effective against Italian forces in 1940-41 but vulnerable to the German 88mm gun.",
+    "relatedModules": ["desert-warfare-technology"]
+  },
+  {
+    "id": "eighth-army",
+    "term": "Eighth Army",
+    "definition": "The British Commonwealth army that fought in North Africa from 1941-1943, famous for its victory at El Alamein under Montgomery.",
+    "relatedModules": ["north-african-campaign", "key-battles"]
+  },
+  {
+    "id": "desert-air-force",
+    "term": "Desert Air Force",
+    "definition": "The RAF command that provided air support to the Eighth Army in North Africa, achieving air superiority by late 1942.",
+    "relatedModules": ["desert-warfare-technology"]
+  },
+  {
+    "id": "ultra",
+    "term": "Ultra",
+    "definition": "The Allied intelligence program that broke German Enigma codes. Ultra revealed Axis supply problems and allowed interception of convoys crossing the Mediterranean.",
+    "relatedModules": ["north-african-campaign", "key-battles"]
+  },
+  {
+    "id": "qattara-depression",
+    "term": "Qattara Depression",
+    "definition": "A vast salt marsh and sand sea south of El Alamein, impassable to vehicles. Its presence forced both armies to fight on the narrow coastal strip.",
+    "relatedModules": ["key-battles"]
+  },
+  {
+    "id": "jerrycan",
+    "term": "Jerrycan",
+    "definition": "German fuel container design (Wehrmachtskanister) so superior to Allied designs that the British and Americans eventually copied it. The name comes from 'Jerry,' British slang for Germans.",
+    "relatedModules": ["desert-warfare-technology"]
+  }
+]

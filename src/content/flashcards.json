@@ -1,0 +1,247 @@
+[
+  {
+    "id": "fc-001",
+    "front": "When did Rommel arrive in North Africa?",
+    "back": "February 12, 1941, at Tripoli, Libya",
+    "category": "date",
+    "moduleId": "rommel-desert-fox"
+  },
+  {
+    "id": "fc-002",
+    "front": "What was the nickname given to Rommel?",
+    "back": "The Desert Fox (Der Wustenfuchs)",
+    "category": "person",
+    "moduleId": "rommel-desert-fox"
+  },
+  {
+    "id": "fc-003",
+    "front": "What was the Afrika Korps?",
+    "back": "The Deutsches Afrikakorps (DAK) - the German expeditionary force in North Africa commanded by Rommel",
+    "category": "glossary",
+    "moduleId": "rommel-desert-fox"
+  },
+  {
+    "id": "fc-004",
+    "front": "What medal did Rommel receive in World War I?",
+    "back": "The Pour le Merite (Blue Max) - Imperial Germany's highest military decoration",
+    "category": "fact",
+    "moduleId": "rommel-desert-fox"
+  },
+  {
+    "id": "fc-005",
+    "front": "What was the 'Ghost Division'?",
+    "back": "Rommel's 7th Panzer Division during the 1940 France campaign - moved so fast even German HQ lost track of it",
+    "category": "glossary",
+    "moduleId": "rommel-desert-fox"
+  },
+  {
+    "id": "fc-006",
+    "front": "When did Italy invade Egypt?",
+    "back": "September 13, 1940",
+    "category": "date",
+    "moduleId": "north-african-campaign"
+  },
+  {
+    "id": "fc-007",
+    "front": "What was Operation Compass?",
+    "back": "The British offensive in December 1940 that destroyed the Italian Tenth Army and captured 130,000 prisoners",
+    "category": "fact",
+    "moduleId": "north-african-campaign"
+  },
+  {
+    "id": "fc-008",
+    "front": "Why was the Suez Canal strategically important?",
+    "back": "It connected the Mediterranean to the Red Sea, vital for British communications with India and the Far East",
+    "category": "fact",
+    "moduleId": "north-african-campaign"
+  },
+  {
+    "id": "fc-009",
+    "front": "What was Operation Torch?",
+    "back": "The Allied invasion of French North Africa (Morocco and Algeria) on November 8, 1942",
+    "category": "fact",
+    "moduleId": "north-african-campaign"
+  },
+  {
+    "id": "fc-010",
+    "front": "When did the North African Campaign end?",
+    "back": "May 13, 1943, with the surrender of 275,000 Axis troops in Tunisia",
+    "category": "date",
+    "moduleId": "north-african-campaign"
+  },
+  {
+    "id": "fc-011",
+    "front": "How long did the Siege of Tobruk last?",
+    "back": "241 days (April 10 to December 7, 1941)",
+    "category": "fact",
+    "moduleId": "key-battles"
+  },
+  {
+    "id": "fc-012",
+    "front": "Who were the 'Rats of Tobruk'?",
+    "back": "The Australian and Allied defenders of Tobruk who adopted a German propaganda insult as a badge of honor",
+    "category": "glossary",
+    "moduleId": "key-battles"
+  },
+  {
+    "id": "fc-013",
+    "front": "What was the Gazala Line?",
+    "back": "A 50-mile defensive line of fortified 'boxes' and minefields built by the British in early 1942",
+    "category": "glossary",
+    "moduleId": "key-battles"
+  },
+  {
+    "id": "fc-014",
+    "front": "Who commanded the Eighth Army at El Alamein?",
+    "back": "General Bernard Montgomery",
+    "category": "person",
+    "moduleId": "key-battles"
+  },
+  {
+    "id": "fc-015",
+    "front": "When was the Second Battle of El Alamein?",
+    "back": "October 23 to November 11, 1942",
+    "category": "date",
+    "moduleId": "key-battles"
+  },
+  {
+    "id": "fc-016",
+    "front": "What was the Qattara Depression?",
+    "back": "A vast salt marsh and sand sea south of El Alamein, impassable to vehicles, which forced armies to fight on the narrow coastal strip",
+    "category": "glossary",
+    "moduleId": "key-battles"
+  },
+  {
+    "id": "fc-017",
+    "front": "Who founded the SAS?",
+    "back": "Captain David Stirling, in July 1941",
+    "category": "person",
+    "moduleId": "birth-of-sas"
+  },
+  {
+    "id": "fc-018",
+    "front": "What was the original name of the SAS?",
+    "back": "L Detachment, Special Air Service Brigade - named to deceive German intelligence",
+    "category": "fact",
+    "moduleId": "birth-of-sas"
+  },
+  {
+    "id": "fc-019",
+    "front": "What was a Lewes Bomb?",
+    "back": "A combined incendiary and explosive device developed by Jock Lewes specifically for destroying parked aircraft",
+    "category": "glossary",
+    "moduleId": "birth-of-sas"
+  },
+  {
+    "id": "fc-020",
+    "front": "What was the LRDG?",
+    "back": "The Long Range Desert Group - a reconnaissance unit that transported SAS teams to their targets",
+    "category": "glossary",
+    "moduleId": "birth-of-sas"
+  },
+  {
+    "id": "fc-021",
+    "front": "When did David Stirling get captured?",
+    "back": "January 27, 1943, in Tunisia. He spent the rest of the war in Colditz.",
+    "category": "date",
+    "moduleId": "birth-of-sas"
+  },
+  {
+    "id": "fc-022",
+    "front": "What was the German 88mm gun famous for?",
+    "back": "Originally an anti-aircraft gun, Rommel adapted it as a devastating anti-tank weapon with long range and high velocity",
+    "category": "fact",
+    "moduleId": "desert-warfare-technology"
+  },
+  {
+    "id": "fc-023",
+    "front": "What was the Matilda II?",
+    "back": "A British 'infantry tank' with heavy armor but slow speed, effective against Italians but vulnerable to the 88mm",
+    "category": "glossary",
+    "moduleId": "desert-warfare-technology"
+  },
+  {
+    "id": "fc-024",
+    "front": "What was a Jerrycan?",
+    "back": "The superior German fuel container design that the British and Americans eventually copied",
+    "category": "glossary",
+    "moduleId": "desert-warfare-technology"
+  },
+  {
+    "id": "fc-025",
+    "front": "What was Ultra?",
+    "back": "The Allied intelligence program that broke German Enigma codes, revealing Axis supply problems and enabling convoy interception",
+    "category": "glossary",
+    "moduleId": "desert-warfare-technology"
+  },
+  {
+    "id": "fc-026",
+    "front": "What was the Desert Air Force?",
+    "back": "The RAF command that provided air support to the Eighth Army, achieving air superiority by late 1942",
+    "category": "glossary",
+    "moduleId": "desert-warfare-technology"
+  },
+  {
+    "id": "fc-027",
+    "front": "When was Rommel promoted to Field Marshal?",
+    "back": "June 21, 1942, after capturing Tobruk in a single day",
+    "category": "date",
+    "moduleId": "rommel-desert-fox"
+  },
+  {
+    "id": "fc-028",
+    "front": "What was Operation Crusader?",
+    "back": "The British offensive in November-December 1941 that relieved the siege of Tobruk",
+    "category": "fact",
+    "moduleId": "key-battles"
+  },
+  {
+    "id": "fc-029",
+    "front": "What happened at Kasserine Pass?",
+    "back": "Rommel inflicted a humiliating defeat on inexperienced American forces in February 1943",
+    "category": "fact",
+    "moduleId": "key-battles"
+  },
+  {
+    "id": "fc-030",
+    "front": "When did Rommel permanently leave North Africa?",
+    "back": "March 9, 1943, sick and disillusioned, handing command to General von Arnim",
+    "category": "date",
+    "moduleId": "rommel-desert-fox"
+  },
+  {
+    "id": "fc-031",
+    "front": "What book did Rommel write about infantry tactics?",
+    "back": "Infantry Attacks (Infanterie Greift An), published in 1937, based on his WWI experiences",
+    "category": "fact",
+    "moduleId": "rommel-desert-fox"
+  },
+  {
+    "id": "fc-032",
+    "front": "How did the first SAS raid go?",
+    "back": "It was a disaster - 55 men parachuted into a sandstorm, only 21 survived. But the unit was not disbanded.",
+    "category": "fact",
+    "moduleId": "birth-of-sas"
+  },
+  {
+    "id": "fc-033",
+    "front": "How many aircraft did the SAS destroy at Tamet and Sirte?",
+    "back": "37 aircraft were destroyed on the ground on December 14, 1941",
+    "category": "fact",
+    "moduleId": "birth-of-sas"
+  },
+  {
+    "id": "fc-034",
+    "front": "What was the M4 Sherman's main advantage?",
+    "back": "It was reliable, easy to maintain, and produced in vast numbers, though not superior to German tanks individually",
+    "category": "fact",
+    "moduleId": "desert-warfare-technology"
+  },
+  {
+    "id": "fc-035",
+    "front": "What was 'Hellfire Pass'?",
+    "back": "The nickname for Halfaya Pass, due to the deadly German 88mm guns positioned there",
+    "category": "location",
+    "moduleId": "key-battles"
+  }
+]

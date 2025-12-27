@@ -1,0 +1,333 @@
+[
+  {
+    "id": "panzer-iii",
+    "name": "Panzer III",
+    "type": "tank",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Panzer III was the backbone of the Afrika Korps armored force during the early desert campaigns. While not heavily armored, it was reliable and well-suited to desert conditions. Later variants were upgunned with a 50mm cannon.",
+    "specifications": {
+      "weight": "23 tons",
+      "crew": "5",
+      "mainArmament": "50mm KwK 39 L/60",
+      "armor": "30-50mm",
+      "speed": "25 mph (40 km/h)",
+      "range": "95 miles (155 km)"
+    },
+    "desertRole": "The Panzer III formed the core of Rommel's tank formations during his early victories. It was effective against British Cruiser tanks but struggled against the heavily armored Matilda II until the 50mm gun was introduced.",
+    "image": "/images/museum/panzer-iii.jpg",
+    "imageCredit": "Bundesarchiv, Public domain, via Wikimedia Commons"
+  },
+  {
+    "id": "panzer-iv-f2",
+    "name": "Panzer IV Ausf. F2/G",
+    "type": "tank",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Panzer IV with the long 75mm gun was the most effective German tank in North Africa. It could engage British tanks at ranges where they couldn't effectively respond, giving the Afrika Korps a significant tactical advantage.",
+    "specifications": {
+      "weight": "25 tons",
+      "crew": "5",
+      "mainArmament": "7.5cm KwK 40 L/43",
+      "armor": "30-80mm",
+      "speed": "26 mph (42 km/h)",
+      "range": "130 miles (210 km)"
+    },
+    "desertRole": "Arriving in 1942, the long-barreled Panzer IV could destroy any Allied tank at over 1,000 meters. It gave Rommel's forces a qualitative edge until American Shermans arrived in numbers.",
+    "image": "/images/museum/panzer-iv-f2.jpg",
+    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0, via Wikimedia Commons"
+  },
+  {
+    "id": "m4-sherman",
+    "name": "M4 Sherman Tank",
+    "type": "tank",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The M4 Sherman arrived in North Africa in 1942 and proved a game-changer for the Eighth Army. While not superior to German tanks individually, its reliability, ease of maintenance, and sheer numbers made it invaluable.",
+    "specifications": {
+      "weight": "30.3 tons",
+      "crew": "5",
+      "mainArmament": "75mm M3 L/40 gun",
+      "armor": "12.7-76mm",
+      "speed": "30 mph (48 km/h)",
+      "range": "120 miles (193 km)"
+    },
+    "desertRole": "Shermans first saw action at El Alamein in October 1942. Over 300 were available for Montgomery's offensive. Their mechanical reliability meant more tanks in action, compensating for individual shortcomings.",
+    "image": "/images/museum/m4-sherman.jpg",
+    "imageCredit": "U.S. Army, Public domain, via Wikimedia Commons"
+  },
+  {
+    "id": "matilda-ii",
+    "name": "Matilda II Infantry Tank",
+    "type": "tank",
+    "nation": "allied",
+    "country": "United Kingdom",
+    "description": "The Matilda II earned the nickname 'Queen of the Desert' during Operation Compass when its thick armor proved impervious to Italian anti-tank guns. However, it was slow and vulnerable to the German 88mm.",
+    "specifications": {
+      "weight": "27 tons",
+      "crew": "4",
+      "mainArmament": "QF 2-pounder (40mm)",
+      "armor": "20-78mm",
+      "speed": "15 mph (24 km/h)",
+      "range": "160 miles (257 km)"
+    },
+    "desertRole": "Matildas were devastating against Italian forces in 1940-41, but the arrival of German 88mm guns negated their armor advantage. They were gradually replaced by faster Cruiser tanks and Grants.",
+    "image": "/images/museum/matilda-ii.jpg",
+    "imageCredit": "Australian War Memorial, Public domain"
+  },
+  {
+    "id": "crusader-tank",
+    "name": "Crusader Tank",
+    "type": "tank",
+    "nation": "allied",
+    "country": "United Kingdom",
+    "description": "The Crusader was Britain's main cruiser tank in North Africa during 1941-42. Fast but unreliable and undergunned, it symbolized both the daring and the equipment challenges faced by the Eighth Army.",
+    "specifications": {
+      "weight": "20 tons",
+      "crew": "3-5",
+      "mainArmament": "QF 2-pounder (40mm)",
+      "armor": "7-49mm",
+      "speed": "27 mph (43 km/h)",
+      "range": "124 miles (200 km)"
+    },
+    "desertRole": "Crusaders were the most numerous British tanks at operations like Crusader and Gazala. Their speed suited desert warfare, but mechanical breakdowns and weak armament led to heavy losses against German armor.",
+    "image": "/images/museum/crusader-tank.jpg",
+    "imageCredit": "Imperial War Museums, Public domain"
+  },
+  {
+    "id": "m3-grant",
+    "name": "M3 Grant/Lee Tank",
+    "type": "tank",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The M3 Grant (British name) was the first Allied tank in North Africa with a gun capable of engaging German tanks on equal terms. Its 75mm sponson gun gave British tank crews new hope in the desert.",
+    "specifications": {
+      "weight": "30 tons",
+      "crew": "6",
+      "mainArmament": "75mm M2/M3 + 37mm M6",
+      "armor": "12-51mm",
+      "speed": "21 mph (34 km/h)",
+      "range": "120 miles (193 km)"
+    },
+    "desertRole": "Grants arrived before Gazala in 1942. Their 75mm gun could knock out Panzer IIIs and IVs, giving British tank crews their first real counter to German armor. The high silhouette was a disadvantage.",
+    "image": "/images/museum/m3-grant.jpg",
+    "imageCredit": "U.S. Army, Public domain"
+  },
+  {
+    "id": "88mm-flak",
+    "name": "88mm Flak 36/37",
+    "type": "artillery",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The 88mm Flak gun was the most feared weapon in North Africa. Rommel pioneered using these anti-aircraft guns in an anti-tank role, devastating British armor from ranges where they couldn't respond.",
+    "specifications": {
+      "caliber": "88mm",
+      "weight": "7,407 lb (3,360 kg)",
+      "length": "226 in (5,791 mm) barrel",
+      "effectiveRange": "9 miles (14.8 km) AA, 2 miles (3.2 km) AT",
+      "rateOfFire": "15-20 rounds/min"
+    },
+    "desertRole": "At Halfaya Pass ('Hellfire Pass'), 88mm guns destroyed British tanks at ranges over 2,000 meters. Rommel's tactic of luring British tanks onto concealed 88mm positions was devastatingly effective.",
+    "image": "/images/museum/88mm-flak.jpg",
+    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+  },
+  {
+    "id": "25-pounder",
+    "name": "Ordnance QF 25-Pounder",
+    "type": "artillery",
+    "nation": "allied",
+    "country": "United Kingdom",
+    "description": "The 25-pounder was the standard British field gun throughout the war. Its combination of range, accuracy, and rapid rate of fire made it the most successful British artillery piece of World War II.",
+    "specifications": {
+      "caliber": "87.6mm (3.45 in)",
+      "weight": "3,968 lb (1,800 kg)",
+      "range": "13,400 yards (12,253 m)",
+      "rateOfFire": "6-8 rounds/min",
+      "shellWeight": "25 lb (11.3 kg)"
+    },
+    "desertRole": "The 25-pounder formed the backbone of British artillery in the desert. At El Alamein, over 900 guns fired in the opening barrage. The gun could also serve in an anti-tank role when needed.",
+    "image": "/images/museum/25-pounder.jpg",
+    "imageCredit": "Australian War Memorial, Public domain"
+  },
+  {
+    "id": "bf-109",
+    "name": "Messerschmitt Bf 109",
+    "type": "aircraft",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Bf 109 was Germany's primary fighter in North Africa. Fast and well-armed, it initially dominated the skies but was increasingly challenged by improved Allied fighters and overwhelming numbers.",
+    "specifications": {
+      "length": "29 ft 7 in (9.02 m)",
+      "wingspan": "32 ft 4 in (9.87 m)",
+      "armament": "2x 7.92mm MG + 1x 20mm cannon",
+      "speed": "398 mph (640 km/h)",
+      "range": "528 miles (850 km)"
+    },
+    "desertRole": "Bf 109s of JG 27 initially dominated desert skies. Hans-Joachim Marseille, the 'Star of Africa,' scored 158 victories flying Bf 109s before his death in September 1942.",
+    "image": "/images/museum/bf-109.jpg",
+    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+  },
+  {
+    "id": "spitfire",
+    "name": "Supermarine Spitfire",
+    "type": "aircraft",
+    "nation": "allied",
+    "country": "United Kingdom",
+    "description": "The Spitfire arrived in North Africa in 1942 and helped turn the air war in the Allies' favor. Its excellent performance and maneuverability made it a match for the Bf 109.",
+    "specifications": {
+      "length": "29 ft 11 in (9.12 m)",
+      "wingspan": "36 ft 10 in (11.23 m)",
+      "armament": "8x .303 MG or 2x 20mm + 4x .303",
+      "speed": "362 mph (583 km/h)",
+      "range": "434 miles (698 km)"
+    },
+    "desertRole": "Spitfires of the Desert Air Force provided air superiority over El Alamein and supported the advance to Tunisia. They helped achieve the air dominance that made Axis supply convoys increasingly vulnerable.",
+    "image": "/images/museum/spitfire.jpg",
+    "imageCredit": "Royal Air Force, Public domain"
+  },
+  {
+    "id": "p-40-warhawk",
+    "name": "P-40 Warhawk/Tomahawk/Kittyhawk",
+    "type": "aircraft",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The P-40 was the workhorse of Allied air forces in North Africa. Tough and reliable, it served as both fighter and ground attack aircraft despite being outperformed by the Bf 109 at altitude.",
+    "specifications": {
+      "length": "31 ft 9 in (9.68 m)",
+      "wingspan": "37 ft 4 in (11.38 m)",
+      "armament": "6x .50 cal MG + 500 lb bombs",
+      "speed": "360 mph (580 km/h)",
+      "range": "650 miles (1,046 km)"
+    },
+    "desertRole": "P-40s flew with RAF, RAAF, and SAAF squadrons as the primary Allied fighter until Spitfires arrived in numbers. Their shark-mouth nose art became iconic of the desert air war.",
+    "image": "/images/museum/p-40-warhawk.jpg",
+    "imageCredit": "U.S. Air Force, Public domain"
+  },
+  {
+    "id": "ju-87-stuka",
+    "name": "Junkers Ju 87 Stuka",
+    "type": "aircraft",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Ju 87 Stuka dive bomber was a fearsome weapon in the open desert, where its precision attacks could destroy vehicles and positions with deadly accuracy. Its distinctive siren added psychological terror.",
+    "specifications": {
+      "length": "36 ft 5 in (11.1 m)",
+      "wingspan": "45 ft 3 in (13.8 m)",
+      "armament": "2x 7.92mm MG + 1,800 kg bombs",
+      "speed": "242 mph (390 km/h)",
+      "range": "490 miles (790 km)"
+    },
+    "desertRole": "Stukas provided close air support for Afrika Korps offensives. Their pinpoint bombing of artillery positions and tank concentrations was particularly effective before Allied air superiority was achieved.",
+    "image": "/images/museum/ju-87-stuka.jpg",
+    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+  },
+  {
+    "id": "lee-enfield",
+    "name": "Lee-Enfield No. 4 Rifle",
+    "type": "weapon",
+    "nation": "allied",
+    "country": "United Kingdom",
+    "description": "The Lee-Enfield was the standard British infantry rifle, famous for its smooth bolt action allowing rapid fire. A trained soldier could fire 15-30 aimed shots per minute.",
+    "specifications": {
+      "caliber": ".303 British",
+      "capacity": "10-round magazine",
+      "weight": "8.8 lb (4.0 kg)",
+      "length": "44.5 in (1,130 mm)",
+      "effectiveRange": "550 yards (500 m)"
+    },
+    "desertRole": "The Lee-Enfield armed British and Commonwealth infantry throughout the desert campaign. Its 10-round magazine gave it a firepower advantage over the German Kar98k's 5-round magazine.",
+    "image": "/images/museum/lee-enfield.jpg",
+    "imageCredit": "Imperial War Museums, Public domain"
+  },
+  {
+    "id": "kar98k",
+    "name": "Karabiner 98k",
+    "type": "weapon",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Kar98k was the standard German infantry rifle of World War II. A bolt-action design based on the Mauser action, it was accurate and reliable in the harsh desert conditions.",
+    "specifications": {
+      "caliber": "7.92x57mm Mauser",
+      "capacity": "5-round internal magazine",
+      "weight": "8.2 lb (3.7 kg)",
+      "length": "43.7 in (1,110 mm)",
+      "effectiveRange": "550 yards (500 m)"
+    },
+    "desertRole": "Afrika Korps soldiers relied on the Kar98k throughout the campaign. Its robust action handled sand and dust better than some Allied weapons, though its 5-round magazine limited firepower.",
+    "image": "/images/museum/kar98k.jpg",
+    "imageCredit": "Bundesarchiv, Public domain"
+  },
+  {
+    "id": "mg34",
+    "name": "MG 34 Machine Gun",
+    "type": "weapon",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The MG 34 was the world's first general-purpose machine gun, serving both as a squad automatic weapon and on vehicles. Its high rate of fire made it devastating in desert combat.",
+    "specifications": {
+      "caliber": "7.92x57mm Mauser",
+      "rateOfFire": "800-900 rounds/min",
+      "weight": "26.7 lb (12.1 kg)",
+      "length": "48 in (1,219 mm)",
+      "effectiveRange": "2,200 yards (2,000 m)"
+    },
+    "desertRole": "MG 34s gave German infantry and vehicles superior firepower. Mounted on halftracks and tanks, they provided suppressive fire during the mobile desert battles.",
+    "image": "/images/museum/mg34.jpg",
+    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+  },
+  {
+    "id": "lrdg-chevrolet",
+    "name": "LRDG Chevrolet 30cwt Truck",
+    "type": "vehicle",
+    "nation": "allied",
+    "country": "United Kingdom/USA",
+    "description": "The Long Range Desert Group used modified Chevrolet trucks for their deep desert patrols. These vehicles were stripped down, fitted with extra fuel and water tanks, and armed with machine guns.",
+    "specifications": {
+      "weight": "Varied with modifications",
+      "crew": "3-4",
+      "armament": "Various MGs, Boys AT rifle",
+      "speed": "50 mph (80 km/h)",
+      "range": "1,100+ miles with extra tanks"
+    },
+    "desertRole": "LRDG trucks transported SAS raiders deep behind enemy lines and conducted their own reconnaissance missions. They pioneered desert navigation techniques still used today.",
+    "image": "/images/museum/lrdg-chevrolet.jpg",
+    "imageCredit": "Imperial War Museums, Public domain"
+  },
+  {
+    "id": "sas-jeep",
+    "name": "SAS Armed Jeep",
+    "type": "vehicle",
+    "nation": "allied",
+    "country": "United States/United Kingdom",
+    "description": "The SAS modified Willys Jeeps into heavily armed raiding vehicles. Mounting multiple machine guns and capable of carrying substantial supplies, they became the SAS's signature vehicle.",
+    "specifications": {
+      "weight": "2,450 lb + weapons/stores",
+      "crew": "3",
+      "armament": "Vickers K guns, .50 cal MG",
+      "speed": "65 mph (105 km/h)",
+      "range": "300 miles (483 km)"
+    },
+    "desertRole": "SAS Jeeps allowed small teams to raid airfields, shoot up convoys, and escape before the enemy could react. The twin Vickers K guns could destroy parked aircraft and vehicles.",
+    "image": "/images/museum/sas-jeep.jpg",
+    "imageCredit": "Imperial War Museums, Public domain"
+  },
+  {
+    "id": "sdkfz-222",
+    "name": "SdKfz 222 Armored Car",
+    "type": "vehicle",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The SdKfz 222 was a light reconnaissance armored car used extensively by the Afrika Korps. Fast and well-armed for its size, it excelled in the reconnaissance role across the desert.",
+    "specifications": {
+      "weight": "4.8 tons",
+      "crew": "3",
+      "armament": "20mm cannon + 7.92mm MG",
+      "armor": "8-30mm",
+      "speed": "50 mph (80 km/h)",
+      "range": "186 miles (300 km)"
+    },
+    "desertRole": "SdKfz 222s scouted ahead of German columns and screened their flanks. Their 20mm cannon could engage light vehicles and infantry, while their speed allowed rapid withdrawal when facing tanks.",
+    "image": "/images/museum/sdkfz-222.jpg",
+    "imageCredit": "Bundesarchiv, CC-BY-SA 3.0"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "iwm-north-africa",
+    "type": "museum",
+    "title": "Imperial War Museums - North Africa Collection",
+    "publisher": "Imperial War Museums",
+    "url": "https://www.iwm.org.uk/history/the-north-african-campaign",
+    "accessDate": "2024",
+    "description": "Comprehensive collection of North African Campaign artifacts, photographs, and first-hand accounts from the Imperial War Museums."
+  },
+  {
+    "id": "el-alamein-museum",
+    "type": "museum",
+    "title": "El Alamein War Museum",
+    "publisher": "Egyptian Government",
+    "description": "Museum at the El Alamein battlefield commemorating the decisive battles of 1942 with artifacts from both Allied and Axis forces."
+  },
+  {
+    "id": "nara-north-africa",
+    "type": "archive",
+    "title": "National Archives - North African Campaign Records",
+    "publisher": "U.S. National Archives",
+    "url": "https://www.archives.gov/research/military/ww2",
+    "accessDate": "2024",
+    "description": "Official U.S. government records, photographs, and documents related to Operation Torch and the Tunisian Campaign."
+  },
+  {
+    "id": "awm-tobruk",
+    "type": "museum",
+    "title": "Australian War Memorial - Siege of Tobruk",
+    "publisher": "Australian War Memorial",
+    "url": "https://www.awm.gov.au",
+    "accessDate": "2024",
+    "description": "Extensive collection documenting the Australian experience in North Africa, particularly the Siege of Tobruk."
+  },
+  {
+    "id": "rommel-papers",
+    "type": "book",
+    "title": "The Rommel Papers",
+    "author": "Erwin Rommel (edited by B.H. Liddell Hart)",
+    "publisher": "Harcourt, Brace & Co",
+    "year": "1953",
+    "description": "Rommel's personal diaries and letters, edited by noted military historian Liddell Hart, providing unique insight into his thinking and tactics."
+  },
+  {
+    "id": "moorehead-desert-war",
+    "type": "book",
+    "title": "African Trilogy: The North African Campaign 1940-43",
+    "author": "Alan Moorehead",
+    "publisher": "Hamish Hamilton",
+    "year": "1944",
+    "description": "First-hand account by Australian war correspondent who covered the entire North African Campaign, originally published as three volumes."
+  },
+  {
+    "id": "fraser-knight-cross",
+    "type": "book",
+    "title": "Knight's Cross: A Life of Field Marshal Erwin Rommel",
+    "author": "David Fraser",
+    "publisher": "HarperCollins",
+    "year": "1993",
+    "description": "Acclaimed biography of Rommel by a distinguished British general and military historian."
+  },
+  {
+    "id": "mortimer-sas",
+    "type": "book",
+    "title": "Stirling's Men: The Inside History of the SAS in World War II",
+    "author": "Gavin Mortimer",
+    "publisher": "Weidenfeld & Nicolson",
+    "year": "2004",
+    "description": "Comprehensive history of the SAS based on extensive interviews with surviving veterans."
+  },
+  {
+    "id": "cowles-phantom-major",
+    "type": "book",
+    "title": "The Phantom Major: The Story of David Stirling and the SAS Regiment",
+    "author": "Virginia Cowles",
+    "publisher": "Collins",
+    "year": "1958",
+    "description": "Early biography of David Stirling and the founding of the SAS, written with access to original participants."
+  },
+  {
+    "id": "young-rommel",
+    "type": "book",
+    "title": "Rommel: The Desert Fox",
+    "author": "Desmond Young",
+    "publisher": "Harper & Brothers",
+    "year": "1950",
+    "description": "One of the first major biographies of Rommel by a British officer who was captured by the Afrika Korps."
+  },
+  {
+    "id": "bbc-history-africa",
+    "type": "website",
+    "title": "BBC History - North Africa",
+    "publisher": "BBC",
+    "url": "https://www.bbc.co.uk/history/worldwars/wwtwo",
+    "accessDate": "2024",
+    "description": "Educational content and documentaries about the North African Campaign from the BBC."
+  },
+  {
+    "id": "liddell-hart",
+    "type": "book",
+    "title": "History of the Second World War",
+    "author": "B.H. Liddell Hart",
+    "publisher": "Putnam",
+    "year": "1970",
+    "description": "Comprehensive military history with detailed analysis of the North African Campaign by the renowned strategist."
+  },
+  {
+    "id": "barr-pendulum",
+    "type": "book",
+    "title": "Pendulum of War: The Three Battles of El Alamein",
+    "author": "Niall Barr",
+    "publisher": "Jonathan Cape",
+    "year": "2004",
+    "description": "Detailed study of the three El Alamein battles and their decisive impact on the war in North Africa."
+  },
+  {
+    "id": "cwgc-north-africa",
+    "type": "website",
+    "title": "Commonwealth War Graves Commission - North Africa",
+    "publisher": "CWGC",
+    "url": "https://www.cwgc.org",
+    "accessDate": "2024",
+    "description": "Records and information about Commonwealth casualties and war cemeteries in North Africa, including El Alamein and Tobruk."
+  },
+  {
+    "id": "sas-regimental",
+    "type": "museum",
+    "title": "SAS Regimental Association Archive",
+    "publisher": "SAS Regimental Association",
+    "description": "Regimental archive containing photographs, documents, and records from the early SAS operations in North Africa."
+  },
+  {
+    "id": "bundesarchiv",
+    "type": "archive",
+    "title": "German Federal Archives - Afrika Korps Collection",
+    "publisher": "Bundesarchiv",
+    "url": "https://www.bundesarchiv.de",
+    "accessDate": "2024",
+    "description": "German military records, photographs, and documents relating to the Afrika Korps."
+  },
+  {
+    "id": "tank-museum",
+    "type": "museum",
+    "title": "The Tank Museum - North Africa Gallery",
+    "publisher": "The Tank Museum, Bovington",
+    "url": "https://www.tankmuseum.org",
+    "accessDate": "2024",
+    "description": "Collection of tanks and armored vehicles from the North African Campaign, including vehicles used by both sides."
+  },
+  {
+    "id": "playfair-official",
+    "type": "book",
+    "title": "History of the Second World War: The Mediterranean and Middle East",
+    "author": "I.S.O. Playfair et al.",
+    "publisher": "HMSO",
+    "year": "1954-1988",
+    "description": "Official British history of the Mediterranean theater in multiple volumes, providing authoritative detail on operations."
+  },
+  {
+    "id": "atkinson-army-dawn",
+    "type": "book",
+    "title": "An Army at Dawn: The War in North Africa, 1942-1943",
+    "author": "Rick Atkinson",
+    "publisher": "Henry Holt",
+    "year": "2002",
+    "description": "Pulitzer Prize-winning history of the American experience in North Africa, focusing on Operation Torch and Tunisia."
+  },
+  {
+    "id": "wikimedia-north-africa",
+    "type": "archive",
+    "title": "Wikimedia Commons - North African Campaign",
+    "publisher": "Wikimedia Foundation",
+    "url": "https://commons.wikimedia.org/wiki/Category:North_African_Campaign",
+    "accessDate": "2024",
+    "description": "Public domain photographs and documents related to the North African Campaign."
+  }
+]

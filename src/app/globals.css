@@ -1,0 +1,348 @@
+@import "tailwindcss";
+
+:root {
+  /* Desert theme color palette */
+  --background: #1a1510;
+  --background-secondary: #251e17;
+  --background-card: #2d2419;
+  --foreground: #f5ebe0;
+  --foreground-muted: #a89984;
+  --accent-sand: #d4a574;
+  --accent-sand-light: #e8c9a0;
+  --accent-rust: #c45a3b;
+  --accent-rust-light: #e07a5f;
+  --accent-khaki: #8b7355;
+  --accent-khaki-light: #a69076;
+  --border: #3d3229;
+  --border-light: #524538;
+
+  /* Category colors - desert warfare themed */
+  --color-afrika-korps: #c9a227;
+  --color-8th-army: #cd853f;
+  --color-sas: #8b4513;
+  --color-command: #daa520;
+  --color-armor: #a0522d;
+  --color-air: #d2691e;
+  --color-supply: #b8860b;
+  --color-italian: #6b8e23;
+
+  /* Importance levels */
+  --importance-major: #f4a460;
+  --importance-significant: #a89984;
+  --importance-minor: #5c4f42;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--foreground);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--foreground-muted);
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--accent-sand);
+  outline-offset: 2px;
+}
+
+/* Card styles */
+.card {
+  background: var(--background-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--border-light);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Button styles */
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent-sand), var(--accent-rust));
+  color: var(--background);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(212, 165, 116, 0.3);
+}
+
+.btn-secondary {
+  background: var(--background-secondary);
+  border: 1px solid var(--border);
+  color: var(--foreground);
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  border-color: var(--accent-sand);
+  color: var(--accent-sand);
+}
+
+/* Timeline styles */
+.timeline-line {
+  background: linear-gradient(to bottom, var(--accent-sand), var(--accent-rust));
+}
+
+/* Category badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-afrika-korps { background: rgba(201, 162, 39, 0.2); color: #e4c54a; }
+.badge-8th-army { background: rgba(205, 133, 63, 0.2); color: #daa06d; }
+.badge-sas { background: rgba(139, 69, 19, 0.2); color: #cd853f; }
+.badge-command { background: rgba(218, 165, 32, 0.2); color: #ffc125; }
+.badge-armor { background: rgba(160, 82, 45, 0.2); color: #cd853f; }
+.badge-air { background: rgba(210, 105, 30, 0.2); color: #e07a5f; }
+.badge-supply { background: rgba(184, 134, 11, 0.2); color: #daa520; }
+.badge-italian { background: rgba(107, 142, 35, 0.2); color: #9acd32; }
+
+/* Progress bar */
+.progress-bar {
+  height: 6px;
+  background: var(--background-secondary);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-khaki), var(--accent-sand));
+  transition: width 0.3s ease;
+}
+
+/* Quiz styles */
+.quiz-option {
+  background: var(--background-secondary);
+  border: 2px solid var(--border);
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quiz-option:hover {
+  border-color: var(--accent-sand);
+}
+
+.quiz-option.selected {
+  border-color: var(--accent-sand);
+  background: rgba(212, 165, 116, 0.1);
+}
+
+.quiz-option.correct {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.quiz-option.incorrect {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+/* Flashcard styles */
+.flashcard {
+  perspective: 1000px;
+}
+
+.flashcard-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flashcard.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+  backface-visibility: hidden;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+/* Map hotspot */
+.map-hotspot {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: var(--accent-sand);
+  border: 3px solid var(--background);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  animation: pulse 2s infinite;
+}
+
+.map-hotspot:hover {
+  transform: scale(1.2);
+  animation: none;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(212, 165, 116, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(212, 165, 116, 0); }
+}
+
+/* Accordion / Find Out More styles */
+.accordion {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.accordion-trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: var(--background-secondary);
+  border: none;
+  color: var(--accent-sand);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.accordion-trigger:hover {
+  background: var(--background-card);
+}
+
+.accordion-trigger svg {
+  transition: transform 0.3s ease;
+}
+
+.accordion-trigger[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  padding: 1rem;
+  background: var(--background-card);
+  border-top: 1px solid var(--border);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* Animation utilities */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Desert heat shimmer animation */
+@keyframes heat-shimmer {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+.animate-shimmer {
+  animation: heat-shimmer 3s ease-in-out infinite;
+}
+
+/* Source citation style */
+.source-citation {
+  font-size: 0.75rem;
+  color: var(--foreground-muted);
+  font-style: italic;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.source-citation a {
+  color: var(--accent-sand);
+  text-decoration: underline;
+}
+
+.source-citation a:hover {
+  color: var(--accent-sand-light);
+}

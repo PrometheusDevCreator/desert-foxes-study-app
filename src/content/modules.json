@@ -1,0 +1,322 @@
+[
+  {
+    "id": "rommel-desert-fox",
+    "number": 1,
+    "title": "Rommel: The Desert Fox",
+    "subtitle": "The legendary commander of the Afrika Korps",
+    "overview": "Erwin Rommel became one of the most famous military commanders of World War II, earning the nickname 'The Desert Fox' for his brilliant tactical maneuvers in North Africa. This module explores his life, his rise to fame, and his complex legacy.",
+    "keyIdeas": [
+      "Rommel's early career and World War I experience",
+      "His command of the 7th Panzer Division in France",
+      "Leadership of the Afrika Korps 1941-1943",
+      "His relationship with Hitler and the Nazi regime",
+      "The July 20 plot and Rommel's forced suicide"
+    ],
+    "cards": [
+      {
+        "id": "card-1-1",
+        "title": "Early Life and World War I",
+        "content": "Erwin Johannes Eugen Rommel was born on November 15, 1891, in Heidenheim, Germany. He joined the German Army in 1910 as an officer cadet. During World War I, Rommel distinguished himself as a highly effective junior officer, fighting in France, Romania, and Italy.\n\nAt the Battle of Caporetto in 1917, Rommel led a small force that captured over 9,000 Italian soldiers and 81 guns in just 52 hours. For this remarkable achievement, he was awarded the Pour le Merite, Imperial Germany's highest military decoration.",
+        "findOutMore": "Rommel's WWI memoir 'Infantry Attacks' (Infanterie greift an), published in 1937, became a military bestseller and brought him to Hitler's attention. The book detailed his innovative small-unit tactics and emphasis on speed, surprise, and leading from the front - principles he would later apply in the desert. His experience fighting in mountainous Italian terrain taught him the value of exploiting terrain and enemy weaknesses, skills that would prove invaluable in North Africa.",
+        "sources": ["source-1", "source-2"]
+      },
+      {
+        "id": "card-1-2",
+        "title": "The Ghost Division in France",
+        "content": "When World War II began, Rommel commanded Hitler's headquarters guard. His aggressive lobbying earned him command of the 7th Panzer Division for the invasion of France in May 1940.\n\nRommel's division advanced so rapidly that it lost contact with German headquarters multiple times, earning the nickname 'Ghost Division' (Gespensterdivision). In just six weeks, his forces captured approximately 100,000 prisoners while suffering fewer than 2,000 casualties.",
+        "findOutMore": "The 7th Panzer Division's advance was so fast that French and British commanders often had no idea where Rommel was. At one point, Rommel personally led tanks across the Meuse River under enemy fire, standing exposed in his command vehicle to direct the crossing. His willingness to lead from the front, while tactically effective, was a practice that would later concern his superiors in Africa. The French campaign established Rommel's reputation for bold, unconventional tactics and cemented his relationship with Hitler.",
+        "sources": ["source-1"]
+      },
+      {
+        "id": "card-1-3",
+        "title": "Command in North Africa",
+        "content": "In February 1941, Rommel was sent to Libya to command the newly formed Afrika Korps (Deutsches Afrikakorps or DAK). His mission was to prevent the complete collapse of Italian forces following their disastrous defeats by the British.\n\nWithin weeks of arriving, Rommel launched an unauthorized offensive that pushed the British back to the Egyptian border, capturing everything except the fortress of Tobruk. This audacious attack, against orders from Berlin, established his reputation as 'The Desert Fox.'",
+        "findOutMore": "Rommel's first African offensive was launched on March 24, 1941, with just the 5th Light Division (later 21st Panzer). He had been ordered to wait for the full Afrika Korps to arrive and not to attack until May at the earliest. Instead, recognizing British weakness, he attacked immediately. Within two weeks he had recovered all of Cyrenaica (eastern Libya) that Italy had lost. This success made him a hero in Germany but earned him criticism from the German High Command for his insubordination. General Halder, Chief of the German General Staff, called him 'this soldier gone stark mad.'",
+        "sources": ["source-1", "source-3"]
+      },
+      {
+        "id": "card-1-4",
+        "title": "Tactics and Leadership Style",
+        "content": "Rommel's success in the desert came from several key principles: leading from the front, rapid movement, concentration of forces, and deception. He frequently drove to the front lines in his command vehicle, personally directing battles and inspiring his troops.\n\nHe was known for treating prisoners humanely and was respected by his enemies. British commander Claude Auchinleck issued an order warning his officers not to create a 'Rommel legend' by attributing almost supernatural powers to him.",
+        "findOutMore": "Rommel's tactical genius included his mastery of the 'sword and shield' tactic - using anti-tank guns (the shield) to draw British armor into range while his panzers (the sword) struck from the flanks. He also pioneered the use of the 88mm anti-aircraft gun in an anti-tank role, devastating British tanks that had no answer to its long range and hitting power. His Mammut command vehicle, equipped with British radio intercept equipment, allowed him to listen to enemy communications. He would often position himself where he could see the battlefield and make rapid decisions, though this practice sometimes left his staff unable to contact him.",
+        "sources": ["source-1", "source-2"]
+      },
+      {
+        "id": "card-1-5",
+        "title": "The July 20 Plot and Death",
+        "content": "By 1944, Rommel had become disillusioned with Hitler's leadership. While commanding Army Group B in France, he was peripherally connected to the July 20, 1944 assassination attempt against Hitler.\n\nOn October 14, 1944, two generals arrived at Rommel's home with an ultimatum from Hitler: face a people's court trial or take poison. To protect his family, Rommel chose the latter. He was given a state funeral and his death was officially attributed to wounds suffered in an Allied air attack three months earlier.",
+        "findOutMore": "Rommel's exact involvement in the July 20 plot remains debated by historians. He was almost certainly aware that a coup was being planned and may have agreed to serve as provisional head of state if it succeeded. However, there is no evidence he knew of the specific assassination attempt. On July 17, 1944, Rommel's car was strafed by Allied aircraft and he was seriously wounded, removing him from events. The conspirators later named him as a participant, leading to Hitler's ultimatum. Rommel's son Manfred, later Mayor of Stuttgart, was with his father when the generals arrived and later testified about his father's forced suicide.",
+        "sources": ["source-1", "source-4"]
+      }
+    ],
+    "glossaryTerms": ["afrika-korps", "panzer", "pour-le-merite", "ghost-division"],
+    "images": [
+      {
+        "url": "/images/modules/rommel-portrait.jpg",
+        "caption": "Field Marshal Erwin Rommel in North Africa, 1942",
+        "credit": "Bundesarchiv, Bild 146-1973-012-43 / CC-BY-SA 3.0",
+        "sourceLink": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1973-012-43,_Erwin_Rommel.jpg",
+        "alt": "Portrait of Erwin Rommel in Afrika Korps uniform"
+      }
+    ],
+    "videos": [],
+    "quizQuestions": ["q1-1", "q1-2", "q1-3"],
+    "estimatedTime": "30 mins"
+  },
+  {
+    "id": "north-african-campaign",
+    "number": 2,
+    "title": "The North African Campaign",
+    "subtitle": "The struggle for control of the Mediterranean",
+    "overview": "The North African Campaign (1940-1943) was a crucial theater of World War II. Control of North Africa meant control of the Suez Canal, Middle Eastern oil, and the Mediterranean Sea. This module covers the strategic importance, major operations, and ultimate Allied victory.",
+    "keyIdeas": [
+      "Strategic importance of North Africa and the Suez Canal",
+      "Italian invasion of Egypt and British counteroffensive",
+      "The arrival of the Afrika Korps",
+      "The see-saw nature of desert warfare",
+      "Operation Torch and the end of Axis forces in Africa"
+    ],
+    "cards": [
+      {
+        "id": "card-2-1",
+        "title": "Why North Africa Mattered",
+        "content": "North Africa's strategic importance stemmed from three factors: the Suez Canal, Middle Eastern oil, and the Mediterranean Sea. The Suez Canal was Britain's lifeline to India and the Far East. Losing it would add thousands of miles to British shipping routes.\n\nFor Germany, a victory in North Africa could have opened the path to Middle Eastern oil fields and potentially linked up with forces attacking through the Caucasus, crippling the Allied war effort.",
+        "findOutMore": "The Mediterranean was crucial for both sides. Britain's Malta, sitting astride Axis supply routes, became the most bombed place on Earth. For Britain, the 'Mediterranean strategy' offered a way to engage Germany before a cross-Channel invasion was possible. Churchill called the Mediterranean the 'soft underbelly' of Europe. Control of North Africa would later enable the invasions of Sicily and Italy. The campaign also tied down significant German and Italian forces that might otherwise have been used on the Eastern Front.",
+        "sources": ["source-3"]
+      },
+      {
+        "id": "card-2-2",
+        "title": "Operation Compass: Britain's First Victory",
+        "content": "In September 1940, Italian forces invaded Egypt from Libya with approximately 250,000 troops. They advanced 60 miles before stopping at Sidi Barrani. In December 1940, British General Richard O'Connor launched Operation Compass, a 'five-day raid' that became a spectacular victory.\n\nWith just 36,000 men, O'Connor's Western Desert Force destroyed the Italian Tenth Army, capturing 130,000 prisoners, 400 tanks, and 1,290 guns while advancing 500 miles in two months. The victory was so complete that Hitler felt compelled to send German forces to prevent the total collapse of Italy's African empire.",
+        "findOutMore": "Operation Compass demonstrated the British Army's capability for mobile desert warfare when properly led and equipped. The Matilda II tanks proved nearly invulnerable to Italian anti-tank weapons. At the Battle of Beda Fomm in February 1941, a small British force cut off and destroyed the retreating Italian army. O'Connor was on the verge of capturing Tripoli and ending the Italian presence in Africa when his forces were halted and redirected to Greece. This decision, made by Churchill, allowed the Axis to reinforce North Africa. O'Connor himself was later captured in a German raid.",
+        "sources": ["source-3", "source-5"]
+      },
+      {
+        "id": "card-2-3",
+        "title": "The Desert War's Unique Character",
+        "content": "The North African desert created a unique battlefield. Vast open spaces favored mobile armored warfare. There were no civilians to worry about and few natural obstacles. The front lines swung back and forth across hundreds of miles as each side's supply lines lengthened while the other's shortened.\n\nBoth sides faced the same enemies: heat, sand, flies, and logistics. The side that could maintain its supply of fuel, water, ammunition, and spare parts held the advantage.",
+        "findOutMore": "Desert warfare was often compared to naval warfare - tanks were like ships maneuvering across an ocean of sand. The lack of natural cover meant that defensive positions had to be created artificially with minefields and strongpoints. The 'Gazala Line,' built by the British in early 1942, stretched 50 miles from Gazala on the coast to Bir Hakeim in the south. Navigation in the featureless desert was a constant challenge; forces sometimes attacked their own side by mistake. Sandstorms could halt operations entirely, and the extreme temperatures (over 120 degrees F in summer) took a heavy toll on men and machines alike.",
+        "sources": ["source-3"]
+      },
+      {
+        "id": "card-2-4",
+        "title": "The Logistics War",
+        "content": "Success in North Africa depended on logistics. Both sides had to ship everything across the Mediterranean - a dangerous journey under constant air and submarine attack. The British had the advantage of Alexandria and the Suez Canal, while Axis forces relied on Tripoli, over 1,000 miles from the front.\n\nRommel's offensives repeatedly stalled when his supply lines stretched too far. Conversely, when the British retreated, their supply situation improved. This created the desert war's characteristic 'pendulum' effect.",
+        "findOutMore": "Rommel never received the supplies he needed. At the peak of his offensive in 1942, he required 1,500 tons of supplies per day but rarely received more than 700. The British Ultra intelligence program allowed the Royal Navy to intercept Axis convoys with devastating effect - at times, over 40% of Axis shipping was sunk. Rommel's capture of British supply dumps at Tobruk in June 1942 provided crucial fuel and vehicles that enabled his advance to El Alamein. German and Italian soldiers often fought using captured British trucks, weapons, and even tanks.",
+        "sources": ["source-3", "source-6"]
+      },
+      {
+        "id": "card-2-5",
+        "title": "Operation Torch and Victory",
+        "content": "On November 8, 1942, American and British forces landed in French North Africa (Morocco and Algeria) in Operation Torch. This was the first major American ground operation against Germany and caught the Axis in a vice between Montgomery's Eighth Army advancing from Egypt and the new First Army pressing from the west.\n\nAfter fierce fighting in Tunisia, including the American defeat at Kasserine Pass, the Axis forces in North Africa surrendered on May 13, 1943. Over 230,000 Axis soldiers became prisoners, a defeat comparable to Stalingrad.",
+        "findOutMore": "Operation Torch was politically complex because the landings occurred in Vichy French territory. The Americans hoped the French would not resist, and after initial fighting, Admiral Darlan ordered a ceasefire. The campaign in Tunisia was more difficult than expected, with experienced German forces putting up fierce resistance. The Battle of Kasserine Pass in February 1943 was the first major engagement between American and German forces and resulted in a significant American defeat. However, the lessons learned at Kasserine helped forge the American army that would later triumph in Europe. The Tunisian campaign also saw the debut of the Sherman tank and the emergence of General George Patton as a combat commander.",
+        "sources": ["source-3", "source-5"]
+      }
+    ],
+    "glossaryTerms": ["suez-canal", "operation-compass", "operation-torch", "western-desert-force"],
+    "images": [
+      {
+        "url": "/images/modules/desert-tanks.jpg",
+        "caption": "British tanks advancing across the Western Desert",
+        "credit": "Imperial War Museums, Public Domain",
+        "sourceLink": "https://commons.wikimedia.org/wiki/File:British_Crusader_tanks.jpg",
+        "alt": "British tanks in desert formation"
+      }
+    ],
+    "videos": [],
+    "quizQuestions": ["q2-1", "q2-2", "q2-3"],
+    "estimatedTime": "35 mins"
+  },
+  {
+    "id": "key-battles",
+    "number": 3,
+    "title": "Key Battles",
+    "subtitle": "Tobruk, Gazala, and El Alamein",
+    "overview": "The North African Campaign featured several decisive battles that shaped the war's outcome. From the siege of Tobruk to the two battles of El Alamein, these engagements tested commanders and soldiers to their limits.",
+    "keyIdeas": [
+      "The siege of Tobruk and the 'Rats of Tobruk'",
+      "Operation Crusader and the relief of Tobruk",
+      "The Battle of Gazala and the fall of Tobruk",
+      "First El Alamein: Rommel stopped",
+      "Second El Alamein: Montgomery's decisive victory"
+    ],
+    "cards": [
+      {
+        "id": "card-3-1",
+        "title": "The Siege of Tobruk (1941)",
+        "content": "When Rommel's first offensive swept the British back to Egypt in April 1941, the fortress of Tobruk held out behind his lines. For 241 days, the Australian 9th Division (later relieved by other units) defended Tobruk against repeated Axis attacks.\n\nThe defenders called themselves the 'Rats of Tobruk,' embracing a German propaganda insult. Their resistance tied down Axis forces and provided a constant threat to Rommel's rear, forcing him to divert troops from the Egyptian front.",
+        "findOutMore": "Tobruk's defenses dated from Italian construction and included an anti-tank ditch and numerous concrete bunkers. The garrison was supplied by the Royal Navy in nightly runs from Alexandria, nicknamed the 'Tobruk Ferry Service.' German and Italian attacks, including Operation Battleaxe and the assault in late April known as the 'Easter Battle,' were repulsed with heavy losses. The Australians developed aggressive patrol tactics, dominating no-man's land and keeping the besiegers off balance. The siege became a symbol of Allied resistance and a major morale boost during Britain's darkest hours.",
+        "sources": ["source-3", "source-7"]
+      },
+      {
+        "id": "card-3-2",
+        "title": "Operation Crusader",
+        "content": "In November 1941, the British launched Operation Crusader to relieve Tobruk and destroy the Afrika Korps. The battle was one of the most confused engagements of the war, with armored forces swirling across the desert in a series of meeting engagements.\n\nDespite heavy British tank losses, Rommel's forces were worn down. On December 7, 1941 (the same day as Pearl Harbor), Rommel ordered a retreat, and Tobruk was relieved after 242 days. The Axis lost about 38,000 men and 300 tanks.",
+        "findOutMore": "Operation Crusader saw some of the fiercest tank fighting of the desert war. At Sidi Rezegh, British and German armor clashed in close-range battles that left the battlefield littered with burning vehicles. Rommel's famous 'dash to the wire' - his raid toward the Egyptian border with his remaining panzers - caused panic in the British rear but failed to relieve pressure on his forces. The battle demonstrated both Rommel's tactical genius and his tendency to lose sight of the bigger picture when personally engaged in combat. British commander General Cunningham was relieved during the battle and replaced by General Ritchie.",
+        "sources": ["source-3"]
+      },
+      {
+        "id": "card-3-3",
+        "title": "The Battle of Gazala",
+        "content": "In May 1942, Rommel launched his greatest offensive. The British had built the Gazala Line, a series of fortified 'boxes' stretching from the coast to Bir Hakeim in the south. Rommel sent his armor on a wide flanking march around the southern end.\n\nAfter fierce fighting, including the Free French defense of Bir Hakeim, Rommel defeated the British armor in detail. On June 21, 1942, Tobruk fell in a single day to a surprise assault, yielding 33,000 prisoners and vast stores of supplies. It was Britain's worst defeat since Singapore.",
+        "findOutMore": "The Battle of Gazala showcased Rommel at his best and British command at its worst. When Rommel's flanking move was detected, the British had an opportunity to destroy his armor while it was trapped in 'The Cauldron' with its back to British minefields. Instead, piecemeal British attacks were defeated in turn. The fall of Tobruk, which Churchill learned of while meeting with Roosevelt in Washington, was a profound shock. The garrison had been weakened by sending units to the Gazala Line, and its defenses had deteriorated since 1941. Rommel was promoted to Field Marshal for this victory.",
+        "sources": ["source-3", "source-5"]
+      },
+      {
+        "id": "card-3-4",
+        "title": "First Battle of El Alamein",
+        "content": "After Gazala, Rommel pursued the retreating British to El Alamein, just 60 miles from Alexandria. Here, the Mediterranean Sea to the north and the impassable Qattara Depression to the south created a position that could not be flanked.\n\nIn July 1942, General Claude Auchinleck stopped Rommel's exhausted forces in the First Battle of El Alamein. Though often overlooked, this defensive victory saved Egypt and ended Rommel's dream of reaching the Suez Canal.",
+        "findOutMore": "The First Battle of El Alamein was actually a series of attacks and counterattacks throughout July 1942. Rommel arrived at El Alamein with barely 30 operational tanks, counting on momentum and captured British supplies to carry him through. Auchinleck's defensive tactics, including the destruction of the Italian Ariete Division at Tel el Eisa and Ruweisat Ridge, gradually wore down Axis strength. By the end of July, both sides were exhausted. Churchill, unsatisfied with the lack of a decisive victory, replaced Auchinleck with General Harold Alexander as theater commander and Lieutenant General Bernard Montgomery as commander of the Eighth Army.",
+        "sources": ["source-3", "source-8"]
+      },
+      {
+        "id": "card-3-5",
+        "title": "Second Battle of El Alamein",
+        "content": "On October 23, 1942, Montgomery launched Operation Lightfoot with a massive artillery barrage. Unlike previous British offensives, Montgomery had overwhelming superiority: 195,000 men versus 104,000 Axis, and 1,029 tanks versus 496.\n\nAfter twelve days of brutal attrition, Rommel's forces broke. The pursuit continued for 1,400 miles to Tunisia. The battle cost 13,500 British and Commonwealth casualties but destroyed the Afrika Korps as an effective fighting force. Churchill later said, 'Before Alamein we never had a victory. After Alamein we never had a defeat.'",
+        "findOutMore": "Montgomery's plan involved a massive 'break-in' battle in the north while a diversionary attack held Axis attention in the south. The fighting was attritional, nicknamed 'crumbling' operations, designed to wear down Axis reserves. Operation Supercharge on November 2nd finally broke through the German lines. Rommel, who had been on sick leave in Germany when the battle began, returned to find his army being destroyed. His request to retreat was initially refused by Hitler with a 'victory or death' order. When retreat was finally permitted, fuel shortages meant much of the Italian infantry was abandoned to capture. The battle's outcome was influenced by Ultra intelligence, which revealed Rommel's supply problems and helped the RAF target his fuel shipments.",
+        "sources": ["source-3", "source-8"]
+      }
+    ],
+    "glossaryTerms": ["rats-of-tobruk", "gazala-line", "operation-crusader", "el-alamein"],
+    "images": [
+      {
+        "url": "/images/modules/el-alamein-artillery.jpg",
+        "caption": "British artillery barrage at El Alamein, October 1942",
+        "credit": "Imperial War Museums, Public Domain",
+        "sourceLink": "https://commons.wikimedia.org/wiki/File:El_Alamein_1942_-_British_artillery.jpg",
+        "alt": "British artillery firing at night during El Alamein"
+      }
+    ],
+    "videos": [],
+    "quizQuestions": ["q3-1", "q3-2", "q3-3"],
+    "estimatedTime": "35 mins"
+  },
+  {
+    "id": "birth-of-sas",
+    "number": 4,
+    "title": "The Birth of the SAS",
+    "subtitle": "David Stirling and the origins of special forces",
+    "overview": "The Special Air Service (SAS) was born in the North African desert in 1941. Founded by David Stirling, this small unit of unconventional raiders would become the model for special forces worldwide. This module explores how the SAS was created and its early operations.",
+    "keyIdeas": [
+      "David Stirling's vision for behind-the-lines raids",
+      "The founding of L Detachment, SAS Brigade",
+      "Early disasters and the refinement of tactics",
+      "Key operations and notable figures",
+      "The SAS legacy and influence on modern special forces"
+    ],
+    "cards": [
+      {
+        "id": "card-4-1",
+        "title": "David Stirling's Vision",
+        "content": "Lieutenant David Stirling was a young Scots Guards officer recovering from a parachute accident in a Cairo hospital in 1941. Frustrated by the failure of large-scale commando raids, he conceived a new approach: small teams of highly trained men striking deep behind enemy lines.\n\nStirling's key insight was that a few men could destroy more aircraft on the ground than entire squadrons of bombers could in the air - and with far less risk. Small teams could infiltrate undetected, strike multiple targets, and vanish into the desert.",
+        "findOutMore": "Stirling, 6'5\" and known for his imposing presence, was an unlikely military revolutionary. Before the war, he had been more interested in art and mountaineering than soldiering. His commando service with Layforce in the Mediterranean had shown him both the potential and limitations of special operations. While recovering in hospital, he wrote his proposal on a single sheet of paper. The document outlined a unit of just 200 men who could strike airfields across North Africa. Unable to get an appointment through normal channels, Stirling bluffed his way past guards into Middle East Headquarters on crutches to present his plan directly to General Auchinleck.",
+        "sources": ["source-9", "source-10"]
+      },
+      {
+        "id": "card-4-2",
+        "title": "L Detachment is Born",
+        "content": "In July 1941, Stirling received permission to form 'L Detachment, Special Air Service Brigade' - a name chosen to deceive German intelligence into believing a large airborne force existed in North Africa. The unit initially had just 66 men, recruited from various commando units.\n\nStirling established rigorous selection standards. Men had to be physically tough, mentally resilient, and capable of independent action. Officers and enlisted men trained together, breaking down traditional British military class barriers.",
+        "findOutMore": "The early recruits included Jock Lewes, an Oxford rowing blue who would develop the 'Lewes bomb' - a combination incendiary and explosive device perfect for destroying aircraft. Paddy Mayne, an Irish rugby international with a reputation for violence, became one of the SAS's most successful raiders. Training took place at Kabrit on the Suez Canal, with an emphasis on desert navigation, weapons proficiency, demolitions, and physical endurance. Men practiced jumping from moving vehicles to simulate parachute landings, resulting in numerous injuries. The unit's original badge, designed by Sergeant Bob Tait, featured the flaming sword of Excalibur - often mistakenly called a 'winged dagger.'",
+        "sources": ["source-9", "source-10"]
+      },
+      {
+        "id": "card-4-3",
+        "title": "First Operations and Disaster",
+        "content": "The first SAS operation on November 16, 1941 was a near-total disaster. Fifty-five men parachuted into a violent sandstorm to attack airfields at Tmimi and Gazala. High winds scattered the men across the desert, and most of the explosives were lost.\n\nOnly 21 men made it to the rendezvous point with the Long Range Desert Group (LRDG), and not a single enemy aircraft was destroyed. But Stirling refused to give up, and lessons learned from this failure would shape SAS tactics for decades.",
+        "findOutMore": "The failed first raid nearly ended the SAS before it began. Men landed miles from their targets, equipment was lost, and several were captured or killed. However, Stirling recognized that parachute insertion was too unpredictable. He proposed using the LRDG's desert trucks for transportation instead. The LRDG, experts in desert navigation and survival, would deliver SAS teams to within walking distance of their targets and pick them up after the raid. This partnership between the SAS and LRDG became one of the most effective special operations arrangements of the war.",
+        "sources": ["source-9", "source-11"]
+      },
+      {
+        "id": "card-4-4",
+        "title": "Striking the Airfields",
+        "content": "Using LRDG transportation, the SAS launched a devastatingly effective campaign against Axis airfields. On the night of December 14, 1941, Paddy Mayne's team destroyed 24 aircraft at Tamet airfield - all without firing a shot, using Lewes bombs planted on the parked planes.\n\nBy the end of 1941, the SAS had destroyed more aircraft than the entire Desert Air Force. Stirling's concept was proven: small, skilled teams could achieve strategic results far out of proportion to their numbers.",
+        "findOutMore": "The Tamet raid established the SAS's modus operandi. Teams would approach airfields on foot after being dropped by the LRDG several miles away. They would cut through perimeter fences, place Lewes bombs on as many aircraft as possible, and escape before the bombs detonated. Mayne became legendary for his coolness under pressure and his tally of destroyed aircraft. On one raid, he reportedly returned to a cockpit to retrieve a forgotten bomb after the aircraft had already been set to explode. The SAS motto 'Who Dares Wins' was adopted during this period, though its exact origin remains disputed.",
+        "sources": ["source-9", "source-10"]
+      },
+      {
+        "id": "card-4-5",
+        "title": "Legacy and Modern Influence",
+        "content": "By 1943, the SAS had destroyed over 400 aircraft and countless vehicles and supply dumps. Stirling himself was captured in January 1943 and spent the rest of the war in Colditz. The unit was reorganized and served in Italy and Northwest Europe.\n\nAfter the war, the SAS was disbanded but reformed in 1947. Today, virtually every major military has units modeled on the SAS, from the U.S. Delta Force to the Australian and New Zealand SAS regiments. The principles Stirling established - small teams, rigorous selection, versatility, and daring - remain the foundation of special forces operations worldwide.",
+        "findOutMore": "Stirling's capture came after a failed operation when his vehicle broke down. He was taken to Italy and made multiple escape attempts, eventually being sent to Colditz Castle, the supposedly escape-proof prisoner-of-war camp. His brother Bill continued to lead SAS operations, and the regiment grew to include French and Belgian squadrons. After the war, Stirling became a businessman in Africa and remained associated with various mercenary and private military ventures. He was knighted in 1990, shortly before his death in 1990. The SAS's influence extends beyond military operations to include counter-terrorism (the 1980 Iranian Embassy siege made the unit world-famous), hostage rescue, and training foreign special forces.",
+        "sources": ["source-9", "source-10", "source-11"]
+      }
+    ],
+    "glossaryTerms": ["sas", "lrdg", "lewes-bomb", "l-detachment"],
+    "images": [
+      {
+        "url": "/images/modules/sas-jeeps.jpg",
+        "caption": "SAS patrol with armed jeeps in the North African desert",
+        "credit": "Imperial War Museums, Public Domain",
+        "sourceLink": "https://commons.wikimedia.org/wiki/File:SAS_jeep_patrol.jpg",
+        "alt": "SAS soldiers in armed jeeps in the desert"
+      }
+    ],
+    "videos": [],
+    "quizQuestions": ["q4-1", "q4-2", "q4-3"],
+    "estimatedTime": "30 mins"
+  },
+  {
+    "id": "desert-warfare-technology",
+    "number": 5,
+    "title": "Desert Warfare Technology",
+    "subtitle": "Tanks, aircraft, and equipment of the desert war",
+    "overview": "The North African Campaign was shaped by the weapons and vehicles both sides employed. From the legendary 88mm gun to the ubiquitous Sherman tank, this module explores the technology that determined victory and defeat in the desert.",
+    "keyIdeas": [
+      "German, Italian, and British tanks compared",
+      "The importance of the 88mm gun",
+      "Aircraft and air power in the desert",
+      "The crucial role of logistics vehicles",
+      "Innovations born from desert conditions"
+    ],
+    "cards": [
+      {
+        "id": "card-5-1",
+        "title": "The Tank War",
+        "content": "Early British tanks like the Matilda II and Crusader had significant weaknesses. The Matilda was slow and mechanically unreliable; the Crusader was fast but prone to breakdowns and under-gunned. German Panzer IIIs and IVs were better balanced, with reliable mechanics and effective weapons.\n\nThe arrival of American M4 Sherman tanks in 1942 gave the British a reliable, mass-produced tank that could be maintained in the harsh desert conditions. While not superior to German tanks one-on-one, Shermans could be fielded in overwhelming numbers.",
+        "findOutMore": "Tank combat in the desert highlighted the limitations of British tank doctrine, which separated 'infantry tanks' (slow and heavily armored) from 'cruiser tanks' (fast but lightly armored). German tactics integrated tanks with anti-tank guns and infantry far more effectively. The Panzer III's 50mm gun could penetrate British tanks at ranges where British 2-pounder guns were ineffective. The Panzer IV Special, with its long 75mm gun, was superior to anything the British fielded until the Sherman and Grant arrived. The Grant (the British name for an American M3 Lee variant) was the first British tank with a gun capable of engaging German panzers at equal range, though its high silhouette and sponson-mounted main gun were significant disadvantages.",
+        "sources": ["source-12"]
+      },
+      {
+        "id": "card-5-2",
+        "title": "The Legendary 88mm",
+        "content": "The German 88mm Flak 36/37 anti-aircraft gun became the most feared weapon in North Africa. Originally designed to shoot down aircraft, Rommel discovered its devastating effectiveness against tanks. Its high velocity shell could destroy any British tank at ranges exceeding 2,000 meters.\n\nBritish tankers learned to fear the distinctive sound and flat trajectory of the 88. It took until 1944 for the Allies to field comparable anti-tank guns, and the 88's reputation became almost mythical.",
+        "findOutMore": "Rommel first used 88s against British armor during the 1941 Operation Battleaxe, when they destroyed dozens of Matildas in what the British called 'Hellfire Pass.' The 88's effectiveness came from its combination of high muzzle velocity (800 meters per second), flat trajectory, and powerful shell. At El Alamein, Montgomery's forces faced a screen of 88s that inflicted heavy casualties during the breakthrough. The Germans also mounted 88mm guns on tanks - the Tiger I tank used a variant that made it the most powerful tank of the war. However, the 88 had weaknesses: it was large, difficult to camouflage, and required a trained crew to operate effectively. Many 88s were lost when their positions were overrun by infantry.",
+        "sources": ["source-12", "source-3"]
+      },
+      {
+        "id": "card-5-3",
+        "title": "Air Power Over the Desert",
+        "content": "Control of the air was crucial in the desert, where there was no cover from aerial attack. The Luftwaffe's Messerschmitt Bf 109 and the RAF's Spitfire and Hurricane fought for air superiority, while bombers and ground-attack aircraft targeted troops, tanks, and supply convoys.\n\nThe German Stuka dive-bomber was initially effective but became vulnerable as Allied fighter strength grew. By El Alamein, the RAF had achieved air superiority that contributed significantly to Montgomery's victory.",
+        "findOutMore": "The desert war saw extensive use of tactical air power in close support of ground forces. The German system of ground-air coordination was initially superior, with Luftwaffe officers operating alongside panzer formations. The British gradually improved their air-ground cooperation, and by 1942, the Desert Air Force operated effectively with the Eighth Army. Aircraft like the American P-40 Kittyhawk served as both fighters and fighter-bombers. The German Me 110 was used for long-range attacks on Allied supply lines. Perhaps most importantly, Allied air power made Rommel's supply situation impossible - fuel tankers and supply convoys were priority targets, and the fuel that did reach the front often came at the cost of precious aircraft and ships.",
+        "sources": ["source-12"]
+      },
+      {
+        "id": "card-5-4",
+        "title": "Logistics and Transport",
+        "content": "Wars are won by logistics, and in the desert, the humble truck was as important as the tank. Both sides depended on trucks to carry fuel, ammunition, water, and food across hundreds of miles of desert. The British used a variety of vehicles, but the American-made trucks that arrived in 1942 proved most reliable.\n\nWater was so precious that each soldier received only a gallon per day for all purposes - drinking, washing, and cooking. Entire operations were planned around water sources.",
+        "findOutMore": "The British logistics system relied heavily on the Royal Army Service Corps, which operated depots and supply convoys across Egypt and Libya. Forward supply points called 'Field Maintenance Centres' moved with the army. The Germans had fewer vehicles and relied heavily on captured British trucks and equipment - at times, over 25% of Afrika Korps transport was of British origin. Italian logistics were even more challenged, with many supplies arriving at the wrong port or being captured before reaching the front. The development of 'desert survival' techniques, including water condensers and navigation methods, became essential. The LRDG pioneered many desert survival techniques that later became standard for all desert forces.",
+        "sources": ["source-3", "source-12"]
+      },
+      {
+        "id": "card-5-5",
+        "title": "Desert Innovations",
+        "content": "The desert's unique conditions drove numerous innovations. The sun compass, developed by Major Ralph Bagnold of the LRDG, allowed accurate navigation when magnetic compasses were unreliable. Sand filters for vehicles had to be cleaned daily. Special 'desert' paint schemes were developed for camouflage.\n\nThe SAS's armed jeeps, mounting multiple machine guns and carrying explosives, became iconic symbols of desert special operations. These 'gun jeeps' could deliver devastating firepower and escape before enemy forces could respond.",
+        "findOutMore": "Bagnold's contributions to desert warfare extended beyond the sun compass. His pre-war explorations of the Libyan desert gave the British crucial knowledge of terrain and navigation. He designed special sand channels for vehicles stuck in soft sand and pioneered techniques for crossing the Great Sand Sea. Medical innovations were equally important: desert sores, dysentery, and eye infections plagued both armies. The British developed mobile surgical units that could operate close to the front. German innovations included the 'Jerry can' (Jerrycan), a fuel container so superior to British designs that the Allies eventually copied it. The desert also saw early experiments with mine-clearing 'flail' tanks, rotating chains that detonated mines in their path.",
+        "sources": ["source-11", "source-12"]
+      }
+    ],
+    "glossaryTerms": ["panzer", "88mm", "sherman", "matilda", "lrdg"],
+    "images": [
+      {
+        "url": "/images/modules/88mm-gun.jpg",
+        "caption": "German 88mm Flak gun in North Africa",
+        "credit": "Bundesarchiv, CC-BY-SA 3.0",
+        "sourceLink": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-443-1589-07,_Nordafrika,_Flak_in_Stellung.jpg",
+        "alt": "German 88mm anti-aircraft gun in desert position"
+      }
+    ],
+    "videos": [],
+    "quizQuestions": ["q5-1", "q5-2", "q5-3"],
+    "estimatedTime": "30 mins"
+  }
+]

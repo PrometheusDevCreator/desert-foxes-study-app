@@ -1,0 +1,102 @@
+[
+  {
+    "id": "el-alamein-museum",
+    "name": "El Alamein War Museum",
+    "type": "museum",
+    "location": "El Alamein, Egypt",
+    "description": "Egypt's premier WWII museum dedicated to the desert campaigns. Houses extensive collections of weapons, vehicles, and personal effects from both Axis and Allied forces, including Rommel's personal items.",
+    "whatItTeaches": "The strategic importance of El Alamein as the turning point of the North African Campaign. Exhibits cover both the July and October 1942 battles in detail.",
+    "visitTips": "Allow 2-3 hours. The outdoor exhibits include tanks and artillery. Best visited as part of a wider desert battlefield tour. Photography permitted.",
+    "website": "https://www.egypt.travel"
+  },
+  {
+    "id": "commonwealth-cemetery-alamein",
+    "name": "Commonwealth War Cemetery El Alamein",
+    "type": "cemetery",
+    "location": "El Alamein, Egypt",
+    "description": "The final resting place of 7,367 identified Commonwealth soldiers who died in the desert campaigns. The cemetery's serene gardens contrast with the harsh desert landscape where these men fought.",
+    "whatItTeaches": "The multinational nature of the Eighth Army, with graves of British, Australian, New Zealand, South African, Indian, and other Commonwealth soldiers. Individual headstones tell personal stories.",
+    "visitTips": "Visit in the morning to avoid midday heat. The memorial lists 11,945 names of soldiers with no known grave. Maintain respectful dress and behavior.",
+    "website": "https://www.cwgc.org"
+  },
+  {
+    "id": "german-italian-memorial",
+    "name": "German & Italian Memorials",
+    "type": "memorial",
+    "location": "El Alamein, Egypt",
+    "description": "Two separate memorials honoring Axis dead. The German memorial is an imposing sandstone structure overlooking the Mediterranean; the Italian memorial is an elegant white marble tower containing the remains of nearly 5,000 Italian soldiers.",
+    "whatItTeaches": "The tremendous cost paid by Axis forces in the desert. Many German and Italian families still visit to honor relatives who never returned home.",
+    "visitTips": "Both memorials are near the Commonwealth cemetery. The Italian memorial's tower offers views of the battlefield. Consider visiting all three sites together.",
+    "website": null
+  },
+  {
+    "id": "tobruk-war-cemetery",
+    "name": "Tobruk War Cemetery",
+    "type": "cemetery",
+    "location": "Tobruk, Libya",
+    "description": "Commonwealth cemetery honoring those who died during the Siege of Tobruk and subsequent battles. Contains 2,490 Commonwealth burials, many being Australian 'Rats of Tobruk'.",
+    "whatItTeaches": "The 241-day siege that defied Rommel and became a symbol of Allied resistance. The cemetery tells the story of the diverse forces who held this vital port.",
+    "visitTips": "Access may be limited due to regional security. Check travel advisories before planning a visit. Best arranged through organized battlefield tours.",
+    "website": "https://www.cwgc.org"
+  },
+  {
+    "id": "imperial-war-museum",
+    "name": "Imperial War Museums",
+    "type": "museum",
+    "location": "London, UK & Duxford, UK",
+    "description": "Britain's premier military history museums with extensive North African Campaign collections. The London branch covers the human experience; Duxford houses vehicles including desert-worn tanks and aircraft.",
+    "whatItTeaches": "Comprehensive coverage of the Eighth Army's campaigns, personal stories of desert soldiers, and the equipment they used. Excellent for understanding the British perspective.",
+    "visitTips": "London for personal stories and context; Duxford for vehicles and aircraft. Both require several hours. London museum is free; Duxford charges admission.",
+    "website": "https://www.iwm.org.uk"
+  },
+  {
+    "id": "tank-museum",
+    "name": "The Tank Museum",
+    "type": "museum",
+    "location": "Bovington, Dorset, UK",
+    "description": "World's finest collection of armored vehicles includes numerous desert campaign veterans. See the Matilda II, Crusader, Valentine, and captured German and Italian tanks that fought in North Africa.",
+    "whatItTeaches": "How tank design evolved during the desert war, why Allied tanks often struggled against German armor, and how tactics adapted to desert conditions.",
+    "visitTips": "Allow a full day. The Tiger Tank exhibit is exceptional. Annual Tiger Day events run one of the few operating Tiger tanks. Café and shop on-site.",
+    "website": "https://www.tankmuseum.org"
+  },
+  {
+    "id": "australian-war-memorial",
+    "name": "Australian War Memorial",
+    "type": "museum",
+    "location": "Canberra, Australia",
+    "description": "Australia's national memorial and museum with extensive Tobruk and El Alamein exhibitions. Features the famous 'Rats of Tobruk' gallery and personal effects of Australian desert soldiers.",
+    "whatItTeaches": "Australia's crucial role in the desert war, particularly the siege of Tobruk. Personal accounts bring to life the experience of Australian soldiers fighting far from home.",
+    "visitTips": "Plan for 3-4 hours minimum. The Last Post ceremony at closing time is moving. Free admission. The research center assists with family history research.",
+    "website": "https://www.awm.gov.au"
+  },
+  {
+    "id": "sas-regimental-museum",
+    "name": "SAS Regimental Museum",
+    "type": "museum",
+    "location": "Hereford, UK",
+    "description": "The official museum of the Special Air Service, covering its origins in the North African desert. Exhibits include original LRDG and SAS vehicles, weapons, and personal equipment.",
+    "whatItTeaches": "How David Stirling founded the SAS and the innovative tactics developed for desert raiding. See actual equipment used on early raids against Axis airfields.",
+    "visitTips": "Limited public access - check opening times carefully. Some exhibitions require advance booking. Located near the SAS headquarters.",
+    "website": "https://www.sasregimental.org.uk"
+  },
+  {
+    "id": "kasserine-pass",
+    "name": "Kasserine Pass Battlefield",
+    "type": "battlefield",
+    "location": "Kasserine, Tunisia",
+    "description": "Site of the February 1943 battle where Rommel inflicted a stinging defeat on inexperienced American forces. The mountainous terrain shows why it was such a difficult position to defend.",
+    "whatItTeaches": "How American forces learned hard lessons that would make them effective fighters by the war's end. The terrain demonstrates why Tunisia was so different from the open desert.",
+    "visitTips": "Best visited with a knowledgeable guide. Limited tourist infrastructure. The American Battle Monuments Commission maintains a memorial nearby.",
+    "website": null
+  },
+  {
+    "id": "tunisia-american-cemetery",
+    "name": "North Africa American Cemetery",
+    "type": "cemetery",
+    "location": "Carthage, Tunisia",
+    "description": "The only American military cemetery in Africa, containing 2,841 graves of those who died in the North African Campaign. Overlooks the Bay of Tunis near ancient Carthage.",
+    "whatItTeaches": "America's sacrifice in learning to fight a modern war. Many buried here fell at Kasserine Pass and in the subsequent battles that drove the Axis from Africa.",
+    "visitTips": "The visitor center provides context on the Tunisia campaign. The memorial lists 3,724 missing. Beautiful gardens contrast with the desert battlefields where these men fell.",
+    "website": "https://www.abmc.gov/north-africa"
+  }
+]

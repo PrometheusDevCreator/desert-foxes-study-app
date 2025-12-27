@@ -1,0 +1,352 @@
+[
+  {
+    "id": "evt-001",
+    "date": "1940-09-13",
+    "title": "Italian Invasion of Egypt",
+    "description": "Marshal Graziani's Italian Tenth Army crosses from Libya into Egypt, advancing 60 miles to Sidi Barrani before halting. This marks the beginning of the North African Campaign.",
+    "category": "command",
+    "location": "Egypt-Libya Border",
+    "relatedModules": ["north-african-campaign"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-002",
+    "date": "1940-12-09",
+    "title": "Operation Compass Begins",
+    "description": "General O'Connor's Western Desert Force launches a surprise offensive against Italian positions at Sidi Barrani. Originally planned as a five-day raid, it becomes a stunning victory.",
+    "category": "command",
+    "location": "Sidi Barrani, Egypt",
+    "relatedModules": ["north-african-campaign", "key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-003",
+    "date": "1941-01-22",
+    "title": "Fall of Tobruk",
+    "description": "Australian 6th Division captures the vital port of Tobruk from Italian forces, taking 25,000 prisoners. The port becomes crucial for supply operations.",
+    "category": "command",
+    "location": "Tobruk, Libya",
+    "relatedModules": ["north-african-campaign", "key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-004",
+    "date": "1941-02-07",
+    "title": "Battle of Beda Fomm",
+    "description": "British forces trap and destroy the Italian Tenth Army at Beda Fomm, capturing 130,000 prisoners. The Italians are driven from Cyrenaica in just two months.",
+    "category": "command",
+    "location": "Beda Fomm, Libya",
+    "relatedModules": ["north-african-campaign"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-005",
+    "date": "1941-02-12",
+    "title": "Rommel Arrives in Africa",
+    "description": "Generalleutnant Erwin Rommel arrives in Tripoli with the first elements of what will become the Afrika Korps, tasked with preventing an Italian collapse.",
+    "category": "command",
+    "location": "Tripoli, Libya",
+    "relatedModules": ["rommel-desert-fox", "north-african-campaign"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-006",
+    "date": "1941-03-24",
+    "title": "Rommel's First Offensive",
+    "description": "Against orders to remain defensive, Rommel launches his first offensive at El Agheila, catching the weakened British forces off guard and beginning the legend of the Desert Fox.",
+    "category": "command",
+    "location": "El Agheila, Libya",
+    "relatedModules": ["rommel-desert-fox", "key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-007",
+    "date": "1941-04-10",
+    "title": "Siege of Tobruk Begins",
+    "description": "Rommel's forces bypass Tobruk and surround it, beginning a 241-day siege. The predominantly Australian garrison refuses to surrender, earning the nickname 'Rats of Tobruk.'",
+    "category": "command",
+    "location": "Tobruk, Libya",
+    "relatedModules": ["key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-008",
+    "date": "1941-04-14",
+    "title": "Capture of British Generals",
+    "description": "During Rommel's advance, Generals O'Connor and Neame are captured when their staff car runs into German forces at night. Britain loses its most experienced desert commander.",
+    "category": "command",
+    "location": "Derna, Libya",
+    "relatedModules": ["rommel-desert-fox"],
+    "importance": "significant"
+  },
+  {
+    "id": "evt-009",
+    "date": "1941-05-15",
+    "title": "Operation Brevity",
+    "description": "British attempt to relieve Tobruk fails after initial gains at Halfaya Pass. The pass becomes known as 'Hellfire Pass' due to the deadly German 88mm guns.",
+    "category": "command",
+    "location": "Halfaya Pass, Egypt",
+    "relatedModules": ["key-battles", "desert-warfare-technology"],
+    "importance": "significant"
+  },
+  {
+    "id": "evt-010",
+    "date": "1941-06-15",
+    "title": "Operation Battleaxe",
+    "description": "Major British offensive to relieve Tobruk ends in failure. German 88mm guns destroy 91 British tanks in three days. General Wavell is replaced by General Auchinleck.",
+    "category": "command",
+    "location": "Libya-Egypt Border",
+    "relatedModules": ["key-battles", "desert-warfare-technology"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-011",
+    "date": "1941-07-07",
+    "title": "SAS Founded",
+    "description": "Captain David Stirling, recovering from a parachute accident, presents his plan for a small raiding force directly to General Auchinleck. L Detachment, Special Air Service Brigade is born.",
+    "category": "sas",
+    "location": "Cairo, Egypt",
+    "relatedModules": ["birth-of-sas"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-012",
+    "date": "1941-11-16",
+    "title": "First SAS Raid",
+    "description": "The SAS's first operation is a disaster when 55 men parachute into a sandstorm. Only 21 survive. Despite this failure, the unit is not disbanded.",
+    "category": "sas",
+    "location": "Gazala, Libya",
+    "relatedModules": ["birth-of-sas"],
+    "importance": "significant"
+  },
+  {
+    "id": "evt-013",
+    "date": "1941-11-18",
+    "title": "Operation Crusader Begins",
+    "description": "The Eighth Army launches its largest offensive yet, with over 700 tanks. The goal is to relieve Tobruk and destroy the Afrika Korps.",
+    "category": "command",
+    "location": "Libya",
+    "relatedModules": ["key-battles", "north-african-campaign"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-014",
+    "date": "1941-11-23",
+    "title": "Totensonntag",
+    "description": "The 'Sunday of the Dead' sees some of the fiercest tank battles of the campaign near Sidi Rezegh. Both sides suffer heavy losses in confused fighting.",
+    "category": "command",
+    "location": "Sidi Rezegh, Libya",
+    "relatedModules": ["key-battles"],
+    "importance": "significant"
+  },
+  {
+    "id": "evt-015",
+    "date": "1941-12-07",
+    "title": "Siege of Tobruk Lifted",
+    "description": "After 241 days, the siege of Tobruk is finally broken when relieving forces link up with the garrison. Rommel is forced to retreat to El Agheila.",
+    "category": "command",
+    "location": "Tobruk, Libya",
+    "relatedModules": ["key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-016",
+    "date": "1941-12-14",
+    "title": "SAS Raid on Tamet and Sirte",
+    "description": "Transported by the LRDG, the SAS destroys 37 aircraft on the ground at Axis airfields. Stirling's tactics are vindicated, and the unit proves its worth.",
+    "category": "sas",
+    "location": "Tamet and Sirte, Libya",
+    "relatedModules": ["birth-of-sas"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-017",
+    "date": "1942-01-21",
+    "title": "Rommel's Second Offensive",
+    "description": "Resupplied with tanks, Rommel launches a surprise counter-offensive. The overstretched British are caught off guard and forced back to the Gazala Line.",
+    "category": "command",
+    "location": "Libya",
+    "relatedModules": ["rommel-desert-fox", "key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-018",
+    "date": "1942-05-26",
+    "title": "Battle of Gazala Begins",
+    "description": "Rommel launches Operation Venezia, swinging south around Bir Hakeim in a bold flanking maneuver against the Gazala Line.",
+    "category": "command",
+    "location": "Gazala Line, Libya",
+    "relatedModules": ["key-battles", "rommel-desert-fox"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-019",
+    "date": "1942-06-11",
+    "title": "Bir Hakeim Falls",
+    "description": "After a heroic 16-day defense, the Free French garrison at Bir Hakeim breaks out. Their sacrifice bought precious time but couldn't prevent Rommel's victory.",
+    "category": "command",
+    "location": "Bir Hakeim, Libya",
+    "relatedModules": ["key-battles"],
+    "importance": "significant"
+  },
+  {
+    "id": "evt-020",
+    "date": "1942-06-21",
+    "title": "Fall of Tobruk",
+    "description": "In a stunning reversal, Rommel captures Tobruk in a single day, taking 33,000 prisoners and massive supplies. Hitler promotes him to Field Marshal on the spot.",
+    "category": "command",
+    "location": "Tobruk, Libya",
+    "relatedModules": ["key-battles", "rommel-desert-fox"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-021",
+    "date": "1942-07-01",
+    "title": "First Battle of El Alamein",
+    "description": "Rommel's exhausted forces reach El Alamein but are stopped by Auchinleck's defensive line. The narrow front between the sea and Qattara Depression favors the defenders.",
+    "category": "command",
+    "location": "El Alamein, Egypt",
+    "relatedModules": ["key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-022",
+    "date": "1942-08-13",
+    "title": "Montgomery Takes Command",
+    "description": "General Bernard Montgomery takes command of the Eighth Army, bringing new leadership and a determination to fight a 'set-piece' battle against Rommel.",
+    "category": "command",
+    "location": "Egypt",
+    "relatedModules": ["key-battles", "north-african-campaign"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-023",
+    "date": "1942-08-30",
+    "title": "Battle of Alam el Halfa",
+    "description": "Rommel's last offensive attempt is defeated when Montgomery refuses to take the bait and keeps his armor on the high ground. The tide begins to turn.",
+    "category": "command",
+    "location": "Alam el Halfa, Egypt",
+    "relatedModules": ["key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-024",
+    "date": "1942-09-13",
+    "title": "Rommel Returns to Germany",
+    "description": "Suffering from exhaustion and ill health, Rommel returns to Germany for medical treatment, leaving General Stumme in command of the Afrika Korps.",
+    "category": "command",
+    "location": "Germany",
+    "relatedModules": ["rommel-desert-fox"],
+    "importance": "significant"
+  },
+  {
+    "id": "evt-025",
+    "date": "1942-10-23",
+    "title": "Second Battle of El Alamein Begins",
+    "description": "At 21:40, a 1,000-gun artillery barrage signals the start of Montgomery's offensive. Operation Lightfoot begins with infantry clearing lanes through minefields.",
+    "category": "command",
+    "location": "El Alamein, Egypt",
+    "relatedModules": ["key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-026",
+    "date": "1942-10-25",
+    "title": "Rommel Returns",
+    "description": "After General Stumme dies of a heart attack, Rommel rushes back from Germany to take command of a battle already going badly for the Axis.",
+    "category": "command",
+    "location": "El Alamein, Egypt",
+    "relatedModules": ["rommel-desert-fox", "key-battles"],
+    "importance": "significant"
+  },
+  {
+    "id": "evt-027",
+    "date": "1942-11-02",
+    "title": "Operation Supercharge",
+    "description": "Montgomery's breakthrough operation shatters the Afrika Korps. Despite Hitler's 'Victory or Death' order, Rommel begins retreating the next day.",
+    "category": "command",
+    "location": "El Alamein, Egypt",
+    "relatedModules": ["key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-028",
+    "date": "1942-11-08",
+    "title": "Operation Torch",
+    "description": "American and British forces land in Morocco and Algeria in the first major American ground operation against Germany. The Axis forces in North Africa are now caught between two armies.",
+    "category": "command",
+    "location": "French North Africa",
+    "relatedModules": ["north-african-campaign"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-029",
+    "date": "1942-11-13",
+    "title": "Tobruk Recaptured",
+    "description": "The Eighth Army recaptures Tobruk as Rommel's forces retreat westward. The Desert Rats enter the port they had defended for so long.",
+    "category": "command",
+    "location": "Tobruk, Libya",
+    "relatedModules": ["north-african-campaign"],
+    "importance": "significant"
+  },
+  {
+    "id": "evt-030",
+    "date": "1943-01-23",
+    "title": "Fall of Tripoli",
+    "description": "The Eighth Army captures Tripoli, the capital of Italian Libya. The city that Rommel had defended for two years falls to Montgomery's pursuit.",
+    "category": "command",
+    "location": "Tripoli, Libya",
+    "relatedModules": ["north-african-campaign"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-031",
+    "date": "1943-01-27",
+    "title": "David Stirling Captured",
+    "description": "The founder of the SAS is captured by German forces while operating behind enemy lines in Tunisia. He spends the rest of the war in Colditz.",
+    "category": "sas",
+    "location": "Tunisia",
+    "relatedModules": ["birth-of-sas"],
+    "importance": "significant"
+  },
+  {
+    "id": "evt-032",
+    "date": "1943-02-19",
+    "title": "Battle of Kasserine Pass",
+    "description": "Rommel inflicts a humiliating defeat on inexperienced American forces at Kasserine Pass. It serves as a harsh lesson for the US Army.",
+    "category": "command",
+    "location": "Kasserine Pass, Tunisia",
+    "relatedModules": ["rommel-desert-fox", "key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-033",
+    "date": "1943-03-06",
+    "title": "Battle of Medenine",
+    "description": "Rommel's final offensive, Operation Capri, is defeated by Montgomery's well-prepared defenses. Fifty-two German tanks are destroyed at no loss to the British.",
+    "category": "command",
+    "location": "Medenine, Tunisia",
+    "relatedModules": ["rommel-desert-fox", "key-battles"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-034",
+    "date": "1943-03-09",
+    "title": "Rommel Leaves Africa",
+    "description": "Sick and disillusioned, Rommel leaves North Africa for the last time, handing command to General von Arnim. He will never return to the desert.",
+    "category": "command",
+    "location": "Tunisia",
+    "relatedModules": ["rommel-desert-fox"],
+    "importance": "major"
+  },
+  {
+    "id": "evt-035",
+    "date": "1943-05-13",
+    "title": "Axis Surrender in Tunisia",
+    "description": "General von Arnim and 275,000 Axis troops surrender in Tunisia. The North African Campaign ends after nearly three years of fighting.",
+    "category": "command",
+    "location": "Tunisia",
+    "relatedModules": ["north-african-campaign"],
+    "importance": "major"
+  }
+]

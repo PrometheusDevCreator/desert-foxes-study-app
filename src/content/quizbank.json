@@ -1,0 +1,347 @@
+[
+  {
+    "id": "q1-1",
+    "moduleId": "rommel-desert-fox",
+    "type": "mcq",
+    "question": "What medal did Rommel receive for his actions at the Battle of Caporetto in World War I?",
+    "options": [
+      "Iron Cross First Class",
+      "Knight's Cross",
+      "Pour le Merite (Blue Max)",
+      "Military Cross"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rommel received the Pour le Merite, Imperial Germany's highest military decoration, for his extraordinary actions at the Battle of Caporetto in 1917, where he captured over 9,000 Italian soldiers.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q1-2",
+    "moduleId": "rommel-desert-fox",
+    "type": "mcq",
+    "question": "Why was Rommel's 7th Panzer Division nicknamed the 'Ghost Division' during the invasion of France?",
+    "options": [
+      "It specialized in night attacks",
+      "Its soldiers wore camouflage",
+      "It moved so fast even German headquarters lost track of it",
+      "It used silent electric vehicles"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 7th Panzer Division advanced so rapidly through France in May 1940 that even the German high command couldn't keep track of its position, earning it the nickname 'Ghost Division.'",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q1-3",
+    "moduleId": "rommel-desert-fox",
+    "type": "mcq",
+    "question": "When did Rommel arrive in North Africa?",
+    "options": [
+      "September 1940",
+      "December 1940",
+      "February 1941",
+      "June 1941"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rommel arrived in Tripoli, Libya on February 12, 1941, with the first elements of what would become the Afrika Korps, tasked with preventing an Italian collapse.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q1-4",
+    "moduleId": "rommel-desert-fox",
+    "type": "mcq",
+    "question": "What book did Rommel write based on his World War I experiences?",
+    "options": [
+      "The Art of Desert War",
+      "Tank Tactics",
+      "Infantry Attacks",
+      "Victory in the Desert"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rommel wrote 'Infantry Attacks' (Infanterie Greift An), published in 1937, which became a military classic and brought him to Hitler's attention.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q2-1",
+    "moduleId": "north-african-campaign",
+    "type": "mcq",
+    "question": "What was Operation Compass?",
+    "options": [
+      "Rommel's first offensive in Africa",
+      "The British offensive that destroyed the Italian Tenth Army",
+      "The German invasion of Egypt",
+      "The Allied invasion of Tunisia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Operation Compass was the British offensive in December 1940 that destroyed the Italian Tenth Army, capturing 130,000 prisoners and prompting Germany to send Rommel to Africa.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q2-2",
+    "moduleId": "north-african-campaign",
+    "type": "mcq",
+    "question": "Why was control of the Suez Canal so important to Britain?",
+    "options": [
+      "It was a source of oil",
+      "It connected the Mediterranean to the Red Sea, vital for communications with India",
+      "It was Britain's main naval base",
+      "It controlled access to the Atlantic Ocean"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Suez Canal was essential for British communications and supply routes to India and the Far East. Losing it would force ships to sail around Africa, adding months to journey times.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q2-3",
+    "moduleId": "north-african-campaign",
+    "type": "mcq",
+    "question": "When did Italy invade Egypt, beginning the North African Campaign?",
+    "options": [
+      "June 1940",
+      "September 1940",
+      "December 1940",
+      "February 1941"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Marshal Graziani's Italian Tenth Army crossed from Libya into Egypt on September 13, 1940, advancing 60 miles to Sidi Barrani before halting.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q2-4",
+    "moduleId": "north-african-campaign",
+    "type": "mcq",
+    "question": "What was Operation Torch?",
+    "options": [
+      "The British defense of Egypt",
+      "Rommel's final offensive",
+      "The Allied invasion of French North Africa",
+      "The capture of Tripoli"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Operation Torch was the Allied invasion of French North Africa (Morocco and Algeria) on November 8, 1942. It was the first major American ground operation against Germany.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q3-1",
+    "moduleId": "key-battles",
+    "type": "mcq",
+    "question": "How long did the Siege of Tobruk last in 1941?",
+    "options": [
+      "90 days",
+      "150 days",
+      "241 days",
+      "365 days"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The siege of Tobruk lasted 241 days, from April 10 to December 7, 1941. The predominantly Australian garrison held out against repeated German attacks.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q3-2",
+    "moduleId": "key-battles",
+    "type": "mcq",
+    "question": "Who were the 'Rats of Tobruk'?",
+    "options": [
+      "German infiltrators",
+      "Desert reconnaissance units",
+      "The Australian and Allied defenders of Tobruk who adopted a German insult as a badge of honor",
+      "Tank crews of the Afrika Korps"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The defenders of Tobruk were called 'rats' by German propaganda. The mostly Australian garrison embraced the name proudly, becoming known as the 'Rats of Tobruk.'",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q3-3",
+    "moduleId": "key-battles",
+    "type": "mcq",
+    "question": "What natural feature helped the defenders at El Alamein?",
+    "options": [
+      "Mountains to the south",
+      "The Nile River",
+      "The Qattara Depression - an impassable salt marsh",
+      "Dense forests"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Qattara Depression, a vast salt marsh and sand sea south of El Alamein, was impassable to vehicles. This forced both armies to fight on the narrow coastal strip.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q3-4",
+    "moduleId": "key-battles",
+    "type": "mcq",
+    "question": "Who commanded the Eighth Army at the Second Battle of El Alamein?",
+    "options": [
+      "General Wavell",
+      "General Auchinleck",
+      "General Montgomery",
+      "General O'Connor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "General Bernard Montgomery took command of the Eighth Army in August 1942 and led it to victory at El Alamein in October-November 1942.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q3-5",
+    "moduleId": "key-battles",
+    "type": "mcq",
+    "question": "What happened at Kasserine Pass?",
+    "options": [
+      "The British captured a major German supply depot",
+      "Rommel won his last great victory against inexperienced American forces",
+      "The SAS destroyed an Axis airfield",
+      "Montgomery defeated Rommel decisively"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In February 1943, Rommel inflicted a humiliating defeat on inexperienced American forces at Kasserine Pass in Tunisia. It was a harsh lesson for the US Army.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q4-1",
+    "moduleId": "birth-of-sas",
+    "type": "mcq",
+    "question": "Who founded the SAS?",
+    "options": [
+      "General Montgomery",
+      "Jock Lewes",
+      "David Stirling",
+      "Paddy Mayne"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Captain David Stirling founded the SAS in July 1941 after presenting his audacious plan directly to General Auchinleck while recovering from a parachute accident.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q4-2",
+    "moduleId": "birth-of-sas",
+    "type": "mcq",
+    "question": "What was the original name of the SAS?",
+    "options": [
+      "Special Reconnaissance Unit",
+      "L Detachment, Special Air Service Brigade",
+      "Desert Raiders",
+      "Commando Force Alpha"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The SAS was originally called 'L Detachment, Special Air Service Brigade' - a name chosen to deceive German intelligence into believing a large airborne force existed.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q4-3",
+    "moduleId": "birth-of-sas",
+    "type": "mcq",
+    "question": "What was a Lewes Bomb?",
+    "options": [
+      "An anti-tank mine",
+      "A smoke grenade",
+      "A combined incendiary and explosive device for destroying aircraft",
+      "A delayed-fuse demolition charge"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Lewes Bomb was developed by Jock Lewes specifically for SAS raids on airfields. It combined incendiary and explosive elements to destroy parked aircraft.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q4-4",
+    "moduleId": "birth-of-sas",
+    "type": "mcq",
+    "question": "What happened on the first SAS raid in November 1941?",
+    "options": [
+      "They destroyed 50 aircraft",
+      "It was a disaster - 55 men parachuted into a sandstorm, only 21 survived",
+      "They captured a German general",
+      "The raid was cancelled due to bad weather"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The first SAS raid was a disaster. 55 men parachuted into a sandstorm, only 21 survived. Despite this failure, Auchinleck didn't disband the unit.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q4-5",
+    "moduleId": "birth-of-sas",
+    "type": "mcq",
+    "question": "What was the LRDG's role in supporting the SAS?",
+    "options": [
+      "Air support",
+      "Artillery cover",
+      "Transportation to and from raid targets",
+      "Radio communications"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Long Range Desert Group transported SAS teams to their targets in modified trucks and picked them up afterwards, using their expert desert navigation skills.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q5-1",
+    "moduleId": "desert-warfare-technology",
+    "type": "mcq",
+    "question": "What weapon did Rommel famously adapt as a devastating anti-tank gun?",
+    "options": [
+      "The 37mm anti-tank gun",
+      "The MG42 machine gun",
+      "The 88mm anti-aircraft gun",
+      "The 75mm field gun"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The German 88mm Flak gun was originally designed for anti-aircraft use, but Rommel adapted it as an anti-tank weapon with devastating effect due to its long range and high velocity.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q5-2",
+    "moduleId": "desert-warfare-technology",
+    "type": "mcq",
+    "question": "What was the Matilda II's main weakness in North Africa?",
+    "options": [
+      "It was too fast to control",
+      "Its armor was too thin",
+      "It was slow and vulnerable to the 88mm gun",
+      "It couldn't cross sand"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Matilda II was designed as an 'infantry tank' with heavy armor but low speed. While effective against Italian forces, it was vulnerable to the German 88mm gun.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q5-3",
+    "moduleId": "desert-warfare-technology",
+    "type": "mcq",
+    "question": "What was Ultra?",
+    "options": [
+      "A type of desert camouflage",
+      "The Allied program that broke German Enigma codes",
+      "A German reconnaissance aircraft",
+      "A British tank design"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ultra was the top-secret Allied intelligence program that broke German Enigma codes, providing vital information about Axis supply convoys and troop movements.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q5-4",
+    "moduleId": "desert-warfare-technology",
+    "type": "mcq",
+    "question": "Why was the German Jerrycan design so important?",
+    "options": [
+      "It was bulletproof",
+      "It held more fuel than Allied cans",
+      "Its design was so superior that the Allies eventually copied it",
+      "It could store both fuel and water"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The German Jerrycan (Wehrmachtskanister) was so much better designed than Allied fuel containers that the British and Americans eventually copied it exactly. The name 'Jerry' came from British slang for Germans.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q5-5",
+    "moduleId": "desert-warfare-technology",
+    "type": "mcq",
+    "question": "What was the M4 Sherman's main advantage in North Africa?",
+    "options": [
+      "It was the most heavily armored tank",
+      "It had the most powerful gun",
+      "It was reliable, easy to maintain, and produced in vast numbers",
+      "It was the fastest tank in the desert"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The M4 Sherman wasn't superior to German tanks individually, but it was reliable, easy to maintain, and America produced them in such vast numbers that losses could quickly be replaced.",
+    "difficulty": "medium"
+  }
+]
